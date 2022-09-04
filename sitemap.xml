@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://foxinhub.github.io/2022/09/04/2022-09-04%E7%9A%84%E5%89%AF%E6%9C%AC/</loc>
-    
-    <lastmod>2022-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://foxinhub.github.io/2022/09/03/2022-09-04/</loc>
     
     <lastmod>2022-09-03</lastmod>
@@ -783,13 +774,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://foxinhub.github.io/tags/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9/</loc>
-    <lastmod>2022-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -1025,13 +1009,6 @@
   
   <url>
     <loc>https://foxinhub.github.io/categories/%E6%96%87%E7%8C%AE%E4%B8%8B%E8%BD%BD/</loc>
-    <lastmod>2022-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://foxinhub.github.io/categories/%E7%BB%98%E7%94%BB/</loc>
     <lastmod>2022-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
