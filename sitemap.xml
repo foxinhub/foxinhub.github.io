@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foxinhub.github.io/links/index.html</loc>
+    
+    <lastmod>2022-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://foxinhub.github.io/posts/25823.html</loc>
     
     <lastmod>2022-09-07</lastmod>
@@ -381,15 +390,6 @@
   
   <url>
     <loc>https://foxinhub.github.io/posts/35484.html</loc>
-    
-    <lastmod>2022-09-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://foxinhub.github.io/links/index.html</loc>
     
     <lastmod>2022-09-07</lastmod>
     
