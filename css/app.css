@@ -4879,10 +4879,10 @@ main >.inner {
   padding: 0;
 }
 #search-hits .item {
-  margin: 0.9375rem 0;
+  margin: 2rem 0;
 }
 #search-hits .item a {
-  border-bottom: 0.0625rem dashed var(--grey-4);
+  border-bottom: 0.1rem dashed var(--grey-4);
   display: block;
   transition: all 0.2s ease-in-out 0s;
 }
