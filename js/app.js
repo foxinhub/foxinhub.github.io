@@ -1,4 +1,4 @@
-var CONFIG = {"version":"0.2.5","hostname":"https://pedantries.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":true},"search":null,"valine":{"appId":"N9hlLoJWgyBHE7CtQA2B6xHi-gzGzoHsz","appKey":"9SyKz1yCuYclN9vTUsPpciht","placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"zh-CN","visitor":true,"NoRecordIP":"ture","serverURLs":null,"powerMode":false,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true}};const getRndInteger = function (min, max) {
+var CONFIG = {"version":"0.2.5","hostname":"https://pedantries.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":true},"search":{"path":"search.json","format":"html","limit":10000,"content":true,"unescape":true,"preload":true,"trigger":"auto","top_n_per_article":10},"valine":{"appId":"N9hlLoJWgyBHE7CtQA2B6xHi-gzGzoHsz","appKey":"9SyKz1yCuYclN9vTUsPpciht","placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"zh-CN","visitor":true,"NoRecordIP":"ture","serverURLs":null,"powerMode":false,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true}};const getRndInteger = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -1631,332 +1631,6 @@ const menuActive = function () {
     }
   });
 }
-const localSearch = function(pjax) {
-  // 参考 hexo next 主题的配置方法
-  // 参考 https://qiuyiwu.github.io/2019/01/25/Hexo-LocalSearch/ 博文
-  console.log(CONFIG.search);
-  if(CONFIG.search === null)
-    return
-
-  if(!siteSearch) {
-    siteSearch = BODY.createChild('div', {
-      id: 'search',
-      innerHTML: `<div class="inner">
-                    <div class="header">
-                      <span class="icon">
-                        <i class="ic i-search">
-                        </i>
-                      </span>
-                      <div class="search-input-container">
-                      <input  class="search-input"
-                              autocomplete="off"
-                              placeholder="${LOCAL.search.placeholder}" 
-                              spellcheck="false"
-                              type="text" 
-                              id="local-search-input">
-                      </div>
-                        <span class="close-btn">
-                          <i class="ic i-times-circle">
-                          </i>
-                        </span>
-                      </div>
-                      <div class="results">
-                        <div class="inner">
-                        <div id="search-stats">
-                        </div>
-                        <div id="search-hits">
-                        </div>
-                        <div id="search-pagination">
-                        </div>
-                      </div>
-                    </div>
-                  </div>`
-    });
-  }
-  
-  let isFetched = false;
-  let datas;
-  let isXml = true;
-
-  // search DB path
-  let searchPath = CONFIG.search.path;
-  console.log(searchPath);
-  if (searchPath.length == 0) {
-    searchPath = 'search.xml';
-  } else if (searchPath.endsWith('json')) {
-    isXml = false;
-  }
-
-  const input = $('.search-input'); // document.querySelector('.search-input');
-  // console.log(input);
-  const resultContent = document.getElementById('search-result');
-  // console.log(resultContent);
-
-  const getIndexByWord = (word, text, caseSensitive) => {
-    if (CONFIG.search.unescape) {
-      let div = document.createElement('div');
-      div.innerText = word;
-      word = div.innerHTML;
-    }
-    let wordLen = word.length;
-    if (wordLen === 0) {
-      return [];
-    }
-    let startPosition = 0;
-    let position = [];
-    let index = [];
-    if (!caseSensitive) {
-      text = text.toLowerCase();
-      word = word.toLowerCase();
-    }
-
-    while ((position = text.indexOf(word, startPosition)) > -1) {
-      index.push({position, word});
-      startPosition = position + wordLen;
-    }
-    return index;
-  };
-
-  // Merge hits into slices
-  const mergeIntoSlice = (start, end, index, searchText) => {
-    let item = index[index.length - 1];
-    let {position, word} = item;
-    let hits = [];
-    let searchTextCountInSlice = 0;
-    while (position + word.length <= end && index.length !== 0) {
-      if (word === searchText) {
-        searchTextCountInSlice++;
-      }
-      hits.push({
-        position,
-        length: word.length
-      });
-
-      let wordEnd = position + word.length;
-
-      // Move to next position of hit
-      index.pop();
-      while (index.length !== 0) {
-        item = index[index.length - 1];
-        position = item.position;
-        word = item.word;
-        if (wordEnd > position) {
-          index.pop();
-        } else {
-          break;
-        }
-      }
-    }
-    return {
-      hits,
-      start,
-      end,
-      searchTextCount: searchTextCountInSlice
-    };
-  }
-
-  // Highlight title and content
-  const highlightKeyword = (text, slice) => {
-    let result = '';
-    let prevEnd = slice.start;
-    slice.hits.forEach(hit => {
-      result += text.substring(prevEnd, hit.position);
-      let end = hit.position + hit.length;
-      result += `<mark">${text.substring(hit.position, end)}</mark>`;
-      prevEnd = end;
-    });
-    result += text.substring(prevEnd, slice.end);
-    return result;
-  };
-
-  const inputEventFunction = () => {
-    if (!isFetched) {
-      return;
-    }
-
-    let searchText = input.value.trim().toLowerCase();
-    let keywords = searchText.split(/[-\s]+/);
-    if (keywords.length > 1) {
-      keywords.push(searchText);
-    }
-    let resultItems = [];
-    if (searchText.length > 0) {
-      // Perform local searching
-      datas.forEach(({title, content, url}) => {
-        let titleInLowerCase = title.toLowerCase();
-        let contentInLowerCase = content.toLowerCase();
-        let indexOfTitle = [];
-        let indexOfContent = [];
-        let searchTextCount = 0;
-        keywords.forEach(keyword => {
-          indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-          indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-        });
-
-        // Show search results
-        if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-          let hitCount = indexOfTitle.length + indexOfContent.length;
-          // Sort index by position of keyword
-          [indexOfTitle, indexOfContent].forEach(index => {
-            index.sort((itemLeft, itemRight) => {
-              if (itemRight.position !== itemLeft.position) {
-                return itemRight.position - itemLeft.position;
-              }
-              return itemLeft.word.length - item.word.length;
-            });
-          });
-
-          let slicesOfContent = [];
-          while (indexOfContent.length !== 0) {
-            let item = indexOfContent[indexOfContent.length - 1];
-            let {position, word} = item;
-            // Cut out 100 characters
-            let start = position - 20;
-            let end = position + 80;
-            if (start < 0) {
-              start = 0;
-            }
-            if (end < position + word.length) {
-              end = position + word.length;
-            }
-            if (end > content.length) {
-              end = content.length;
-            }
-            let tmp = mergeIntoSlice(start, end, indexOfContent, searchText);
-            searchTextCount += tmp.searchTextCountInSlice;
-            slicesOfContent.push(tmp);
-          }
-
-          // Sort slices in content by search text's count and hits' count
-          slicesOfContent.sort((sliceLeft, sliceRight) => {
-            if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-              return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-            } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-              return sliceRight.hits.length - sliceLeft.hits.length;
-            }
-            return sliceLeft.start - sliceRight.start;
-          });
-
-          // Select top N slices in content
-          let upperBound = parseInt(CONFIT.localsearch.top_n_per_article, 10);
-          if (upperBound >= 0) {
-            slicesOfContent = slicesOfContent.slice(0, upperBound);
-          }
-
-          let resultItem = '';
-
-          if (slicesOfTitle.length !== 0) {
-            resultItem += `<li><a href="${url}">${highlightKeyword(title, slicesOfTitle[0])}</a>`;
-          } else {
-            resultItem += `<li><a href="${url}">${title}</a>`;
-          }
-
-          slicesOfContent.forEach(slice => {
-            resultItem += `<a href="${url}"><p>${highlightKeyword(content, slice)}...</p></a>`;
-          });
-
-          resultItem += '</li>';
-          resultItems.push({
-            item: resultItem,
-            id  : resultItems.length,
-            hitCount,
-            searchTextCount
-          });
-        }
-      });
-    }
-
-    if (keywords.length === 1 && keywords[0] === '') {
-      resultContent.innerHTML = '<div id="no-result"><i></i></div>';
-    } else if (resultItems.length === 0) {
-      resultContent.innerHTML = '<div id="no-result"><i></i></div>';
-    } else {
-      resultItems.sort((resultLeft, resultRight) => {
-        if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-          return resultRight.searchTextCount - resultLeft.searchTextCount;
-        } else if (resultLeft.hitCount !== resultRight.hitCount) {
-          return resultRight.hitCount - resultLeft.hitCount;
-        }
-        return resultRight.id - resultLeft.id;
-      });
-      resultContent.innerHTML = `<ul>${resultItems.map(result => result.item).join('')}</ul>`;
-      window.pjax && window.pjax.refresh(resultContent);
-    }
-  }
-
-  const fetchData = () => {
-    fetch(CONFIG.root + searchPath)
-      .then(response => response.text())
-      .then(res => {
-        // Get the contents from search data
-        isfetched = true;
-        datas = isXml ? [...new DOMParser().parseFromString(res, 'text/xml').querySelectorAll('entry')].map(element => {
-          return {
-            title  : element.querySelector('title').textContent,
-            content: element.querySelector('content').textContent,
-            url    : element.querySelector('url').textContent
-          };
-        }) : JSON.parse(res);
-        // Only match articles with not empty titles
-        datas = datas.filter(data => data.title).map(data => {
-          data.title = data.title.trim();
-          data.content = data.content ? data.content.trim().replace(/<[^>]+>/g, '') : '';
-          data.url = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
-          return data;
-        });
-        // Remove loading animation
-        document.getElementById('no-result').innerHTML = '<i></i>';
-        inputEventFunction();
-      });
-  };
-
-  if (CONFIG.search.preload) {
-    fetchData();
-  }
-
-  // Handle and trigger popup window
-  document.querySelectorAll('.popup-trigger').forEach(element => {
-    element.addEventListener('click', () => {
-      document.body.style.overflow = 'hidden';
-      document.querySelector('.search-pop-overlay').classList.add('search-active');
-      input.focus();
-      if (!isfetched) fetchData();
-    });
-  });
-
-  // Handle and trigger popup window
-  $.each('.search', function(element) {
-    element.addEventListener('click', function() {
-      document.body.style.overflow = 'hidden';
-      transition(siteSearch, 'shrinkIn', function() {
-          $('.search-input').focus();
-        }) // transition.shrinkIn
-    });
-  });
-
-  // // Monitor main search box
-  const onPopupClose = function() {
-    document.body.style.overflow = '';
-    transition(siteSearch, 0); // "transition.shrinkOut"
-  };
-
-  siteSearch.addEventListener('click', function(event) {
-    if (event.target === siteSearch) {
-      onPopupClose();
-    }
-  });
-  
-  $('.close-btn').addEventListener('click', onPopupClose);
-  window.addEventListener('pjax:success', onPopupClose);
-  window.addEventListener('keyup', function(event) {
-    if (event.key === 'Escape') {
-      onPopupClose();
-    }
-  });
-
-};
-// Add LocalSearch
-
 const cardActive = function() {
   if(!$('.index.wrap'))
     return
@@ -2037,7 +1711,7 @@ const postFancybox = function(p) {
       $.each(p + ' p.gallery', function(element) {
         var box = document.createElement('div');
         box.className = 'gallery';
-        box.attr('data-height', element.attr('data-height')||220);
+        box.attr('data-height', element.attr('data-height')||120);
 
         box.innerHTML = element.innerHTML.replace(/<br>/g, "")
 
@@ -2100,11 +1774,6 @@ const postBeauty = function () {
   $('.post.block').oncopy = function(event) {
     showtip(LOCAL.copyright)
 
-    if(LOCAL.nocopy) {
-      event.preventDefault()
-      return
-    }
-
     var copyright = $('#copyright')
     if(window.getSelection().toString().length > 30 && copyright) {
       event.preventDefault();
@@ -2130,10 +1799,6 @@ const postBeauty = function () {
     parent.addClass('ruby');
   })
 
-  $.each('ol[start]', function(element) {
-    element.style.counterReset = "counter " + parseInt(element.attr('start') - 1)
-  })
-
   $.each('.md table', function (element) {
     element.wrap({
       className: 'table-container'
@@ -2152,29 +1817,25 @@ const postBeauty = function () {
     element.insertAdjacentHTML('beforeend', '<div class="operation"><span class="breakline-btn"><i class="ic i-align-left"></i></span><span class="copy-btn"><i class="ic i-clipboard"></i></span><span class="fullscreen-btn"><i class="ic i-expand"></i></span></div>');
 
     var copyBtn = element.child('.copy-btn');
-    if(LOCAL.nocopy) {
-      copyBtn.remove()
-    } else {
-      copyBtn.addEventListener('click', function (event) {
-        var target = event.currentTarget;
-        var comma = '', code = '';
-        code_container.find('pre').forEach(function(line) {
-          code += comma + line.innerText;
-          comma = '\n'
-        })
+    copyBtn.addEventListener('click', function (event) {
+      var target = event.currentTarget;
+      var comma = '', code = '';
+      code_container.find('pre').forEach(function(line) {
+        code += comma + line.innerText;
+        comma = '\n'
+      })
 
-        clipBoard(code, function(result) {
-          target.child('.ic').className = result ? 'ic i-check' : 'ic i-times';
-          target.blur();
-          showtip(LOCAL.copyright);
-        })
-      });
-      copyBtn.addEventListener('mouseleave', function (event) {
-        setTimeout(function () {
-          event.target.child('.ic').className = 'ic i-clipboard';
-        }, 1000);
-      });
-    }
+      clipBoard(code, function(result) {
+        target.child('.ic').className = result ? 'ic i-check' : 'ic i-times';
+        target.blur();
+        showtip(LOCAL.copyright);
+      })
+    });
+    copyBtn.addEventListener('mouseleave', function (event) {
+      setTimeout(function () {
+        event.target.child('.ic').className = 'ic i-clipboard';
+      }, 1000);
+    });
 
     var breakBtn = element.child('.breakline-btn');
     breakBtn.addEventListener('click', function (event) {
@@ -2211,11 +1872,11 @@ const postBeauty = function () {
     fullscreenBtn.addEventListener('click', fullscreenHandle);
     caption && caption.addEventListener('click', fullscreenHandle);
 
-    if(code_container && code_container.find("tr").length > 15) {
-      
+    if(code_container && code_container.height() > 300) {
       code_container.style.maxHeight = "300px";
       code_container.insertAdjacentHTML('beforeend', '<div class="show-btn"><i class="ic i-angle-down"></i></div>');
       var showBtn = code_container.child('.show-btn');
+      var showBtnIcon = showBtn.child('i');
 
       var showCode = function() {
         code_container.style.maxHeight = ""
@@ -2424,6 +2085,7 @@ const algoliaSearch = function(pjax) {
     instantsearch.widgets.searchBox({
       container           : '.search-input-container',
       placeholder         : LOCAL.search.placeholder,
+      searchOnEnterKeyPressOnly: true,  // Only search when press enter key
       // Hide default icons of algolia search
       showReset           : false,
       showSubmit          : false,
@@ -2449,8 +2111,13 @@ const algoliaSearch = function(pjax) {
       container: '#search-hits',
       templates: {
         item: function(data) {
+          console.log(data)
           var cats = data.categories ? '<span>'+data.categories.join('<i class="ic i-angle-right"></i>')+'</span>' : '';
-          return '<a href="' + CONFIG.root + data.path +'">'+cats+data._highlightResult.title.value+'</a>';
+          return '<a href="' + CONFIG.root + data.path +'">' + cats + 
+          '<b>' + data._highlightResult.title.value + '</b><br>' + 
+          data._snippetResult.contentStrip.value + '<br>( 匹配字词 : ' + 
+          data._highlightResult.contentStrip.matchedWords + ' ) | ( 匹配等级 : ' + 
+          data._highlightResult.contentStrip.matchLevel + ' )' + '</a>';
         },
         empty: function(data) {
           return '<div id="hits-empty">'+
@@ -2514,8 +2181,497 @@ const algoliaSearch = function(pjax) {
       onPopupClose();
     }
   });
-}
-const domInit = function() {
+};
+
+const localSearch = function(pjax) {
+  // 参考 hexo next 主题的配置方法
+  // 参考 https://qiuyiwu.github.io/2019/01/25/Hexo-LocalSearch/ 博文
+  console.log(CONFIG.search);
+  if(CONFIG.search === null)
+    return
+
+  if(!siteSearch) {
+    siteSearch = BODY.createChild('div', {
+      id: 'search',
+      innerHTML: `<div class="inner">
+                    <div class="header">
+                      <span class="icon">
+                        <i class="ic i-search">
+                        </i>
+                      </span>
+                      <div class="search-input-container">
+                      <input  class="search-input"
+                              autocomplete="off"
+                              placeholder="${LOCAL.search.placeholder}" 
+                              spellcheck="false"
+                              type="text" 
+                              id="local-search-input">
+                      </div>
+                        <span class="close-btn">
+                          <i class="ic i-times-circle">
+                          </i>
+                        </span>
+                      </div>
+                      <div class="results" id="search-results">
+                        <div class="inner">
+                          <div id="search-stats">
+                          </div>
+                          <div id="search-hits">
+                          </div>
+                          <div id="search-pagination">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>`
+    });
+  }
+  
+  let isFetched = false;
+  let datas;
+  let isXml = true;
+  let current_page = 0;
+  let article_per_page = parseInt(CONFIG.search.article_per_page, 10);
+  let total_pages = 0;
+  let max_page_on_show = 7; // 一次最多显示 7 个页码
+  let start_page = 0;
+  let end_page = 0;
+  let resultItems = [];
+
+  // search DB path
+  let searchPath = CONFIG.search.path;
+  if (searchPath.length == 0) {
+    searchPath = 'search.xml';
+  } else if (searchPath.endsWith('json')) {
+    isXml = false;
+  }
+
+  const input = $('.search-input'); // document.querySelector('.search-input');
+  const resultContent = document.getElementById('search-hits');
+  const paginationContent = document.getElementById('search-pagination');
+
+  const getIndexByWord = (word, text, caseSensitive) => {
+    if (CONFIG.search.unescape) {
+      let div = document.createElement('div');
+      div.innerText = word;
+      word = div.innerHTML;
+    }
+    let wordLen = word.length;
+    if (wordLen === 0) {
+      return [];
+    }
+    let startPosition = 0;
+    let position = [];
+    let index = [];
+    if (!caseSensitive) {
+      text = text.toLowerCase();
+      word = word.toLowerCase();
+    }
+
+    while ((position = text.indexOf(word, startPosition)) > -1) {
+      index.push({position, word});
+      startPosition = position + wordLen;
+    }
+    return index;
+  };
+
+  // Merge hits into slices
+  const mergeIntoSlice = (start, end, index, searchText) => {
+    let item = index[index.length - 1];
+    let {position, word} = item;
+    let hits = [];
+    let searchTextCountInSlice = 0;
+    while (position + word.length <= end && index.length !== 0) {
+      if (word === searchText) {
+        searchTextCountInSlice++;
+      }
+      hits.push({
+        position,
+        length: word.length
+      });
+
+      let wordEnd = position + word.length;
+
+      // Move to next position of hit
+      index.pop();
+      while (index.length !== 0) {
+        item = index[index.length - 1];
+        position = item.position;
+        word = item.word;
+        if (wordEnd > position) {
+          index.pop();
+        } else {
+          break;
+        }
+      }
+    }
+    return {
+      hits,
+      start,
+      end,
+      searchTextCount: searchTextCountInSlice
+    };
+  }
+
+  // Highlight title and content
+  const highlightKeyword = (text, slice) => {
+    let result = '';
+    let prevEnd = slice.start;
+    slice.hits.forEach(hit => {
+      result += text.substring(prevEnd, hit.position);
+      let end = hit.position + hit.length;
+      result += `<mark>${text.substring(hit.position, end)}</mark>`;
+      prevEnd = end;
+    });
+    result += text.substring(prevEnd, slice.end);
+    return result;
+  };
+
+  const pagination = () => {
+    const addPrevPage = (current_page) => {
+      let classContent = '';
+      let numberContent = '';
+      if (current_page === 0) {
+        classContent = '#search-pagination pagination-item disabled-item';
+        numberContent = '<span class="#search-pagination page-number"><i class="ic i-angle-left"></i></span>';
+      } else {
+        classContent = '#search-pagination pagination-item';
+        numberContent = `<a class="#search-pagination page-number" aria-label="Prev" href="#">
+                          <i class="ic i-angle-left"></i>
+                        </a>`;
+      }
+      let prevPage = `<li class="${classContent}" id="prev-page">
+                        ${numberContent} 
+                      </li>`;
+      return prevPage;
+    };
+
+    const addNextPage = (current_page) => {
+      let classContent = '';
+      let numberContent = '';
+      if ((current_page + 1) === total_pages) {
+        classContent = '#search-pagination pagination-item disabled-item';
+        numberContent = '<span class="#search-pagination page-number"><i class="ic i-angle-right"></i></span>';
+      } else {
+        classContent = '#search-pagination pagination-item';
+        numberContent = `<a class="#search-pagination page-number" aria-label="Next" href="#">
+                          <i class="ic i-angle-right"></i>
+                        </a>`;
+      }
+      let nextPage = `<li class="${classContent}" id="next-page">
+                        ${numberContent} 
+                      </li>`;
+      return nextPage;
+    };
+
+    const addPage = (index, current_page) => {
+      let classContent = '';
+      let numberContent = `<a class="#search-pagination page-number" aria-label="${index + 1}" href="#">
+                            ${index + 1}
+                          </a>`;
+      if (index === current_page) {
+        classContent = '#search-pagination pagination-item current';
+      } else {
+        classContent = '#search-pagination pagination-item';
+      }
+      let page = `<li class="${classContent}" id="page-${index + 1}">
+                    ${numberContent} 
+                  </li>`;
+      return page;
+    }
+
+    const addPaginationEvents = (start_page, end_page) => {
+      if (total_pages <= 0) {
+        return;
+      }
+      const onPrevPageClick = (event) => {
+        if (current_page > 0) {
+          current_page -= 1;
+        }
+        if (current_page < start_page) {
+          start_page = current_page;
+          end_page = Math.min(end_page, start_page + max_page_on_show);
+        }
+        pagination();
+      };
+      const onNextPageClick = (event) => {
+        if ((current_page + 1) < total_pages) {
+          current_page += 1;
+        }
+        if (current_page > end_page) {
+          end_page = current_page;
+          start_page = Math.max(0, end_page - max_page_on_show);
+        }
+        pagination();
+      };
+      const onPageClick = (event) => {
+        let page_number = parseInt(event.target.ariaLabel);
+        console.log(`page ${page_number} clicked`);
+        current_page = page_number - 1; // note minus 1 here
+        pagination();
+      };
+      let prevPage = document.getElementById('prev-page');
+      prevPage.addEventListener('click', onPrevPageClick);
+      let nextPage = document.getElementById('next-page');
+      nextPage.addEventListener('click', onNextPageClick);
+      for (var i = start_page; i < end_page; i += 1) {
+        let page = document.getElementById(`page-${i + 1}`);
+        page.addEventListener('click', onPageClick);
+      }
+    };
+    
+    paginationContent.innerHTML = ''; // clear
+    let begin_index = Math.min(current_page * article_per_page, resultItems.length);
+    let end_index = Math.min(begin_index + article_per_page, resultItems.length);
+    resultContent.innerHTML = `${resultItems.slice(begin_index, end_index).map(result => result.item).join('')}`;
+    
+    start_page = Math.max(0, total_pages - max_page_on_show);
+    end_page = start_page + Math.min(total_pages, max_page_on_show);
+    let pageContent = '<div class="#search-pagination">';
+    pageContent += '<div class="#search-pagination pagination">';
+    pageContent += '<ul>';
+    if (total_pages > 0) {
+      // add prev page arrow, when no prev page not selectable
+      pageContent += addPrevPage(current_page);
+      for (let i = start_page; i < end_page; i += 1) {
+        pageContent += addPage(i, current_page);
+      }
+      // add next page arrow, when no next page not selectable
+      pageContent += addNextPage(current_page);
+    }
+    pageContent += '</ul>';
+    pageContent += '</div>';
+    pageContent += '</div>';
+    paginationContent.innerHTML = pageContent;
+    addPaginationEvents(start_page, end_page);
+    resultContent.scrollTop = 0;  // scroll to top
+    window.pjax && window.pjax.refresh(resultContent);
+  };
+
+  const inputEventFunction = () => {
+    if (!isFetched) {
+      console.log("Data not fetched.");
+      return;
+    }
+
+    let searchText = input.value.trim().toLowerCase();
+    let keywords = searchText.split(/[-\s]+/);
+    if (keywords.length > 1) {
+      keywords.push(searchText);
+    }
+    resultItems = [];
+    if (searchText.length > 0) {
+      // Perform local searching
+      datas.forEach(({categories, title, content, url}, index) => {
+        let titleInLowerCase = title.toLowerCase();
+        let contentInLowerCase = content.toLowerCase();
+        let indexOfTitle = [];
+        let indexOfContent = [];
+        let searchTextCount = 0;
+        keywords.forEach(keyword => {
+          indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+          indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+        });
+
+        // Show search results
+        if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+          let hitCount = indexOfTitle.length + indexOfContent.length;
+          // Sort index by position of keyword
+          [indexOfTitle, indexOfContent].forEach(index => {
+            index.sort((itemLeft, itemRight) => {
+              if (itemRight.position !== itemLeft.position) {
+                return itemRight.position - itemLeft.position;
+              }
+              return itemLeft.word.length - item.word.length;
+            });
+          });
+
+          let slicesOfTitle = [];
+          if (indexOfTitle.length !== 0) {
+            let tmp = mergeIntoSlice(0, title.length, indexOfTitle, searchText);
+            searchTextCount += tmp.searchTextCountInSlice;
+            slicesOfTitle.push(tmp);
+          }
+
+          let slicesOfContent = [];
+          while (indexOfContent.length !== 0) {
+            let item = indexOfContent[indexOfContent.length - 1];
+            let {position, word} = item;
+            // Cut out 100 characters
+            let start = position - 20;
+            let end = position + 30;
+            if (start < 0) {
+              start = 0;
+            }
+            if (end < position + word.length) {
+              end = position + word.length;
+            }
+            if (end > content.length) {
+              end = content.length;
+            }
+            let tmp = mergeIntoSlice(start, end, indexOfContent, searchText);
+            searchTextCount += tmp.searchTextCountInSlice;
+            slicesOfContent.push(tmp);
+          }
+
+          // Sort slices in content by search text's count and hits' count
+          slicesOfContent.sort((sliceLeft, sliceRight) => {
+            if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+              return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+            } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+              return sliceRight.hits.length - sliceLeft.hits.length;
+            }
+            return sliceLeft.start - sliceRight.start;
+          });
+
+          // Select top N slices in content
+          let upperBound = parseInt(CONFIG.search.top_n_per_article, 10);
+          if (upperBound >= 0) {
+            slicesOfContent = slicesOfContent.slice(0, upperBound);
+          }
+
+          let resultItem = '';
+          resultItem += '<div class="#search-hits item">';
+          // resultItem += '<div class="#search-hits">';
+          // resultItem += '<ol class="item">'
+          resultItem += '<li>'
+          // resultItem += '<li>';
+          var cats = categories !== undefined ? '<span>' + categories.join('<i class="ic i-angle-right"></i>') + '</span>' : '<span>No categories</span>';
+          resultItem += `<a href="${url}">` + cats;
+          if (slicesOfTitle.length !== 0) {
+            // resultItem += `<li><a href="${url}">${highlightKeyword(title, slicesOfTitle[0])}</a>`;
+            resultItem += `<b>${highlightKeyword(title, slicesOfTitle[0])}</b><br>`;
+          } else {
+            // resultItem += `<li><a href="${url}">${title}</a>`;
+            resultItem += `<b>${title}</b><br>`;
+          }
+
+          slicesOfContent.forEach(slice => {
+            // resultItem += `<a href="${url}"><p>${highlightKeyword(content, slice)}...</p></a>`;
+            resultItem += `<li class="#search-hits subitem">${highlightKeyword(content, slice)} ...</li>`;
+          });
+
+          // resultItem += '</li>';
+          resultItem += '</a>';
+          resultItem += '</li>';
+          // resultItem += '</ol>';
+          resultItem += '</div>';
+          resultItems.push({
+            item: resultItem,
+            id  : resultItems.length,
+            hitCount,
+            searchTextCount
+          });
+        }
+      });
+    }
+
+    if (keywords.length === 1 && keywords[0] === '') {
+      resultContent.innerHTML = '<div id="no-result"><i></i></div>';
+    } else if (resultItems.length === 0) {
+      resultContent.innerHTML = '<div id="no-result"><i></i></div>';
+    } else {
+      resultItems.sort((resultLeft, resultRight) => {
+        if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+          return resultRight.searchTextCount - resultLeft.searchTextCount;
+        } else if (resultLeft.hitCount !== resultRight.hitCount) {
+          return resultRight.hitCount - resultLeft.hitCount;
+        }
+        return resultRight.id - resultLeft.id;
+      });
+    }
+    // Do pagination
+    total_pages = Math.ceil(resultItems.length / article_per_page);
+    pagination();
+  }
+
+  const fetchData = () => {
+    fetch(CONFIG.root + searchPath)
+      .then(response => response.text())
+      .then(res => {
+        // Get the contents from search data
+        isFetched = true;
+        datas = isXml ? [...new DOMParser().parseFromString(res, 'text/xml').querySelectorAll('entry')].map(element => {
+          return {
+            title  : element.querySelector('title').textContent,
+            content: element.querySelector('content').textContent,
+            url    : element.querySelector('url').textContent
+          };
+        }) : JSON.parse(res);
+        // Only match articles with not empty titles
+        datas = datas.filter(data => data.title).map(data => {
+          data.title = data.title.trim();
+          data.content = data.content ? data.content.trim().replace(/<[^>]+>/g, '') : '';
+          data.url = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+          return data;
+        });
+        // Remove loading animation
+        console.log("isFetched: " + isFetched);
+        console.log("datas:");
+        console.log(datas);
+        document.getElementById('search-hits').innerHTML = '<i></i>';
+        inputEventFunction();
+      });
+  };
+
+  if (CONFIG.search.preload) {
+    console.log("fetch data.");
+    fetchData();
+  }
+
+  if (CONFIG.search.trigger === 'auto') {
+    console.log(CONFIG.search.trigger);
+    input.addEventListener('input', inputEventFunction);
+  } else {
+    document.querySelector('.search-icon').addEventListener('click', inputEventFunction);
+    input.addEventListener('keypress', event => {
+      if (event.key === 'Enter') {
+        inputEventFunction();
+      }
+    });
+  }
+
+  // Handle and trigger popup window
+  document.querySelectorAll('.popup-trigger').forEach(element => {
+    element.addEventListener('click', () => {
+      document.body.style.overflow = 'hidden';
+      document.querySelector('.search-pop-overlay').classList.add('search-active');
+      input.focus();
+      if (!isFetched) fetchData();
+    });
+  });
+
+  // Handle and trigger popup window
+  $.each('.search', function(element) {
+    element.addEventListener('click', function() {
+      document.body.style.overflow = 'hidden';
+      transition(siteSearch, 'shrinkIn', function() {
+          $('.search-input').focus();
+        }) // transition.shrinkIn
+    });
+  });
+
+  // Monitor main search box
+  const onPopupClose = function() {
+    document.body.style.overflow = '';
+    transition(siteSearch, 0); // "transition.shrinkOut"
+  };
+
+  siteSearch.addEventListener('click', function(event) {
+    if (event.target === siteSearch) {
+      onPopupClose();
+    }
+  });
+
+  $('.close-btn').addEventListener('click', onPopupClose);
+  window.addEventListener('pjax:success', onPopupClose);
+  window.addEventListener('keyup', function(event) {
+    if (event.key === 'Escape') {
+      onPopupClose();
+    }
+  });
+
+};const domInit = function() {
   $.each('.overview .menu > .item', function(el) {
     siteNav.child('.menu').appendChild(el.cloneNode(true));
   })
@@ -2639,7 +2795,8 @@ const siteInit = function () {
   visibilityListener()
   themeColorListener()
 
-  algoliaSearch(pjax)
+  // algoliaSearch(pjax)
+  localSearch(pjax)
 
   window.addEventListener('scroll', scrollHandle)
 
