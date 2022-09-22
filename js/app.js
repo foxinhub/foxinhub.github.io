@@ -2113,10 +2113,10 @@ const algoliaSearch = function(pjax) {
         item: function(data) {
           console.log(data)
           var cats = data.categories ? '<span>'+data.categories.join('<i class="ic i-angle-right"></i>')+'</span>' : '';
-          return '<a href="' + CONFIG.root + data.path +'">' + cats + 
-          '<b>' + data._highlightResult.title.value + '</b><br>' + 
-          data._snippetResult.contentStrip.value + '<br>( 匹配字词 : ' + 
-          data._highlightResult.contentStrip.matchedWords + ' ) | ( 匹配等级 : ' + 
+          return '<a href="' + CONFIG.root + data.path +'">' + cats +
+          '<b>' + data._highlightResult.title.value + '</b><br>' +
+          data._snippetResult.contentStrip.value + '<br>( 匹配字词 : ' +
+          data._highlightResult.contentStrip.matchedWords + ' ) | ( 匹配等级 : ' +
           data._highlightResult.contentStrip.matchLevel + ' )' + '</a>';
         },
         empty: function(data) {
@@ -2202,9 +2202,9 @@ const localSearch = function(pjax) {
                       <div class="search-input-container">
                       <input  class="search-input"
                               autocomplete="off"
-                              placeholder="${LOCAL.search.placeholder}" 
+                              placeholder="${LOCAL.search.placeholder}"
                               spellcheck="false"
-                              type="text" 
+                              type="text"
                               id="local-search-input">
                       </div>
                         <span class="close-btn">
@@ -2226,7 +2226,7 @@ const localSearch = function(pjax) {
                   </div>`
     });
   }
-  
+
   let isFetched = false;
   let datas;
   let isXml = true;
@@ -2240,6 +2240,8 @@ const localSearch = function(pjax) {
 
   // search DB path
   let searchPath = CONFIG.search.path;
+  console.log("search path:");
+  console.log(searchPath);
   if (searchPath.length == 0) {
     searchPath = 'search.xml';
   } else if (searchPath.endsWith('json')) {
@@ -2341,7 +2343,7 @@ const localSearch = function(pjax) {
                         </a>`;
       }
       let prevPage = `<li class="${classContent}" id="prev-page">
-                        ${numberContent} 
+                        ${numberContent}
                       </li>`;
       return prevPage;
     };
@@ -2359,7 +2361,7 @@ const localSearch = function(pjax) {
                         </a>`;
       }
       let nextPage = `<li class="${classContent}" id="next-page">
-                        ${numberContent} 
+                        ${numberContent}
                       </li>`;
       return nextPage;
     };
@@ -2375,7 +2377,7 @@ const localSearch = function(pjax) {
         classContent = '#search-pagination pagination-item';
       }
       let page = `<li class="${classContent}" id="page-${index + 1}">
-                    ${numberContent} 
+                    ${numberContent}
                   </li>`;
       return page;
     }
@@ -2419,12 +2421,12 @@ const localSearch = function(pjax) {
         page.addEventListener('click', onPageClick);
       }
     };
-    
+
     paginationContent.innerHTML = ''; // clear
     let begin_index = Math.min(current_page * article_per_page, resultItems.length);
     let end_index = Math.min(begin_index + article_per_page, resultItems.length);
     resultContent.innerHTML = `${resultItems.slice(begin_index, end_index).map(result => result.item).join('')}`;
-    
+
     start_page = Math.max(0, total_pages - max_page_on_show);
     end_page = start_page + Math.min(total_pages, max_page_on_show);
     let pageContent = '<div class="#search-pagination">';
@@ -2671,7 +2673,8 @@ const localSearch = function(pjax) {
     }
   });
 
-};const domInit = function() {
+};
+const domInit = function() {
   $.each('.overview .menu > .item', function(el) {
     siteNav.child('.menu').appendChild(el.cloneNode(true));
   })
