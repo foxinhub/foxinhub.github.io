@@ -2943,12 +2943,6 @@ main >.inner {
 .social .item.github i {
   color: #191717;
 }
-.social .item.zhihu::before {
-  background-color: #1e88e5;
-}
-.social .item.zhihu i {
-  color: #1e88e5;
-}
 .social .item.email::before {
   background-color: #55acd5;
 }
