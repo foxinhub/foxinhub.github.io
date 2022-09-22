@@ -4867,7 +4867,7 @@ main >.inner {
 }
 #search-hits {
   overflow-y: scroll;
-  height: calc(100% - 8.125rem);
+  height: calc(100% - 5.125rem);
 }
 #search-hits ol {
   padding: 0;
@@ -4885,6 +4885,22 @@ main >.inner {
   display: block;
 }
 #search-hits .item span i {
+  color: var(--grey-4);
+  margin: 0 0.3125rem;
+}
+#search-hits .subitem {
+  margin: 0.9375rem 0;
+}
+#search-hits .subitem a {
+  border-bottom: 0.0625rem dashed var(--grey-4);
+  display: block;
+  transition: all 0.2s ease-in-out 0s;
+}
+#search-hits .subitem span {
+  font-size: 70%;
+  display: block;
+}
+#search-hits .subitem span i {
   color: var(--grey-4);
   margin: 0 0.3125rem;
 }
