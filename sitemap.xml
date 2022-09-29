@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pedantries.com/posts/19701.html</loc>
+    
+    <lastmod>2022-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/4070.html</loc>
     
     <lastmod>2022-09-27</lastmod>
@@ -878,6 +887,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/Francoise-Dastur/</loc>
+    <lastmod>2022-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1190,6 +1206,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2022-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E5%BE%B7%E9%87%8C%E8%BE%BE/</loc>
     <lastmod>2022-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
