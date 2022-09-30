@@ -233,6 +233,73 @@
     </item>
     
     <item>
+      <title>通信（八）：波西米亚的伊丽莎白公主与笛卡尔</title>
+      <link>https://pedantries.com/posts/35839.html</link>
+      <guid>https://pedantries.com/posts/35839.html</guid>
+      <pubDate>Tue, 20 Sep 2022 03:35:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;strong&gt;&lt;center&gt;波西米亚的伊丽莎白公主与笛卡尔通信集（八） &lt;/center&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;center&gt;介君 译&lt;/center&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br /&gt;
+
+&lt;hr&gt;
+&lt;p&gt;授权信息：本文转载自「介君」</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><strong><center>波西米亚的伊丽莎白公主与笛卡尔通信集（八） </center></strong></p><p><strong><center>介君 译</center></strong></p><br /><hr><p>授权信息：本文转载自「介君」，已获授权，原文链接：<span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvU05aS1BtcDZWbU5TOG4tSDd3ZFBxdw==">波西米亚的伊丽莎白公主与笛卡尔通信集（八）</span></p><hr><p><strong><center>笛卡尔致伊丽莎白</center></strong></p><p><strong><center>[霍夫的埃德蒙德]1643年11月29日[1]</center></strong></p><p><img data-src="https://i2.wp.com/telegra.ph/file/ef096160ad6e688c24fac.jpg"></p><p>女士，</p><p>那个解题方法使您高兴，那将它寄给您[2]也是我的荣幸。（您的）解法很合理(just)，不可能再做什么修改了。看着它，我不仅感到惊讶，还情不自禁地满怀喜悦。当我看到殿下您采用的计算方法，和我在《几何学》中提出的方法十分相似，我甚至起了些许虚荣心。根据以往经验，大多数有能力理解形而上学推理的心灵，理解不了代数。反之，容易理解后者的人，一般也理解不了其他方面的推理[3]。除了殿下您，我还没见过任何其他人能轻松理解这一切。我确实对此有足够证据，所以我一点也不怀疑，我只担心，她在运算的一开始缺乏克服困难所必要的耐心。因为，在卓越的心灵与身居高位之人那里，这一品质都是极为罕见的。</p><p>现在，她已经克服了困难，将会在余下的部分感到更多乐趣，用一个字母来替换其他的字母（未知数），运算就不会那么乏味了。当一个人想要看清问题的本质，即是否能用尺规解决这个问题，或者是否有必要用一些其他的第一第二类曲线作为求解方法，那他总是能做到这一点。我通常在一些特殊问题上，也只满足于此。因为在我看来，剩下的，似乎就是通过欧几里得的诸多命题，寻找解释和论证，并用代数表示其过程。这只是一个小几何学家的娱乐活动，用不上多少智力和知识。但是，当一个人想要通过求解一些问题得出某个作为普遍规则的定理，以便能够应对其他类似问题，那么就有必要从始至终保留所有字母。进一步来说，如果想要改变这些字母以简化运算，就有必要在最后替换它们，因为通常它们是相互抵消的，改变之后就看不出来了。</p><p>最好确保那些用字母表示的量之间，具有尽可能多的相似关系(similar relations)。这将会使定理更为精简。因为一个量(quantity)能够得出的东西，其他的量也能以相同的方式得到，而且这有助于规避运算中的错误。因为那些用字母表示的量之间具有相同关系，它们必须以相同的方式分布(distribute)。如果注意到这方面的缺失，就会发现错误。</p><p>因此，举例而言，为了找到一个定理，来表示与其他三个位置已知的圆相切的圆的半径，没有必要为线段AD、DC和DB假设a、b、c三个字母。但是对于AB、AC、BC则有必要，因为它们与AH、BH和CH之间的关系相同，而第一组的三条线段则不是这样。使用这六个字母继续计算，在不改变它们或者添加新字母的情况下，沿着殿下您已经采取的方法（因为这比我提出来的更好）进行下去，应该能得到一个相当常规的方程，和一个足够简短的定理。因为a、b、c 三个字母的排列方式与d、e、f这三个字母相同。【如图所示】</p><p><img data-src="https://i0.wp.com/telegra.ph/file/7b05fcbf39c72c152f08c.jpg"></p><p>由于计算过程很繁琐，如果殿下您有心一试，假定三个给定的圆彼此相切会更容易。这样，在整个计算中就只用到字母 d、e、f、x，它们是四个圆的半径，具有相似的关系。首先，会得到：</p><p><img data-src="https://i2.wp.com/telegra.ph/file/1fd9aa8c0ab7a77b1dfbb.png"></p><p>她会发现，x在线段AK中，而e在线段AD中，前者由三角形AHC得到，而后者由三角形ABC得到。最后，她会得到如下等式：<br><img data-src="https://i1.wp.com/telegra.ph/file/6b14efc67c1bf6880f146.jpg"></p><p>作为一个定理，该等式中（左边）四个项的和，是三个圆的半径平方的乘积。两倍的（右边）六个项之和，是两圆半径与剩下一个圆半径相乘，加上另两个圆半径的平方。两边相等。所有这些都足以作为一个原则，在三个给定圆彼此相切的情况下，让我们找到能够在这三个圆之间绘制的最大圆半径。比如说，假设这三个给定圆的半径分别为d&#x2F;2、e&#x2F;3、f&#x2F;4，我将用576 代替 ddeeff，用36xx 代替ddeexx，以此类推。于是，我们就得到<br><img data-src="https://i0.wp.com/telegra.ph/file/dfe4130e7faa579237c02.jpg"></p><p>如果我没有算错的话。</p><p>殿下您在此可以看到，根据人们的不同目的，一个问题可以有两个非常不同的解法。为了知晓问题的本质，以及用什么办法可以解决它，我选择给定垂线或平行线，并假设更多未知数。（这种方法的）目的是不做多余的乘法，更容易看清捷径。另一方面，为了找到问题的解法，我给定三角形的边并只假设一个未知数。但有很多的问题，能够在同一个方法上同时满足两个目标。我毫不怀疑，殿下您很快就会看到，人类的心灵能够在这门学科走多远。既然我对此有巨大的热情，如果我能为此做些贡献，我会为自己感到高兴的，女士，</p><p>殿下您最谦卑和顺从的仆人</p><p>笛卡尔</p><hr><p>[1]在维比克等汇编的《通信集》第60页，大英图书馆的副本可以更精准地确定这封信的日期。</p><p>[2]伊丽莎白所寄给笛卡尔的解法并没有附在信中。</p><p>[3]笛卡尔在其《哲学原理》的致谢信中公开重申了这一观点：“所有证据都证明了您的能力，而这对我而言是相当特别的。事实上，对于我此前所发表的所有著作，您是我迄今为止遇到的唯一一个完全理解它们的人。”其余许多人，甚至是那些最聪明、最富学问的人，都认为它们难以理解。对于剩下的几乎所有人来说，发生的普遍情况是：如果他们理解形而上学，就讨厌几何；如果他们精通几何，就搞不定我所写的第一哲学。据我所知，您的才智是独一无二的，因为您在哪一方面都洞若观火，也正因此，我用“无与伦比”这个词是相当贴切的。（AT 8A:4, CSM 1:192）</p>]]></content:encoded>
+      
+      
+      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/">法国哲学</category>
+      
+      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%AC%9B%E5%8D%A1%E5%B0%94/">笛卡尔</category>
+      
+      
+      <category domain="https://pedantries.com/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94/">笛卡尔</category>
+      
+      
+      <comments>https://pedantries.com/posts/35839.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>通信（七）：波西米亚的伊丽莎白公主与笛卡尔</title>
+      <link>https://pedantries.com/posts/26900.html</link>
+      <guid>https://pedantries.com/posts/26900.html</guid>
+      <pubDate>Tue, 20 Sep 2022 02:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;strong&gt;&lt;center&gt;波西米亚的伊丽莎白公主与笛卡尔通信集（七） &lt;/center&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;center&gt;介君 译&lt;/center&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br /&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;授权信息：本文转载自「介君</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><strong><center>波西米亚的伊丽莎白公主与笛卡尔通信集（七） </center></strong></p><p><strong><center>介君 译</center></strong></p><br /><hr><p>授权信息：本文转载自「介君」，已获授权，原文链接：<span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvUDdxRlZTOFVJRGUyY1FWTXU5UVRIdw==">波西米亚的伊丽莎白公主与笛卡尔通信集（七）</span></p><hr><p><strong><center>伊丽莎白致笛卡尔</center></strong></p><p><strong><center>[海牙]1643年11月21日</center></strong></p><p><img data-src="https://i2.wp.com/telegra.ph/file/50f441723e5b3076b8125.jpg"></p><p>笛卡尔先生，</p><p>如果我能如我所希望的那样，善于听从您的建议，那您就会发现，您的善意对我在推理和代数方面的进步有多大影响。</p><p>不过，我现在却只能向您展示我的缺点。但我已习惯向您呈现这些缺点，就像一个屡教不改的人(old sinners)那般无所顾忌。</p><p>因此，对于您曾经给我提的那个问题，我将我的解答呈送给您。我是用他们早先教我的方法，解出答案的。我也感谢您告诉我其中缺了些什么，因为我不太精通您自己的方法[1]。</p><p>我很清楚自己的解法中的缺陷，因为我没有将它弄得足够清楚，无法得到一个定理。但如果没有您的上一封信，我永远也找不到原因。那封信向我提供了我所需的一切满意答案，而且，相比我在这六个月里，从我老师那里学到的东西，您教会了我更多。</p><p>为此，我受惠于您。如果帕罗蒂先生[2]按照您的吩咐，使用了您的解法，我定然不会原谅他。尽管如此，他还是不想（把您的解法）给我，除非我将我的解法寄给您。所以，请不要介意我给您增添了不必要的麻烦，为了博得您那值得无限尊敬的善意，我几乎没什么事不会去做。</p><p>您的挚友乐意为您效劳</p><p>伊丽莎白</p><hr><p>[1]参见上一封信的注释2</p><p>[2]参见笛卡尔1643年11月寄给波罗的信，AT 4:43-44。</p>]]></content:encoded>
+      
+      
+      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/">法国哲学</category>
+      
+      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%AC%9B%E5%8D%A1%E5%B0%94/">笛卡尔</category>
+      
+      
+      <category domain="https://pedantries.com/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94/">笛卡尔</category>
+      
+      
+      <comments>https://pedantries.com/posts/26900.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>国分功一郎：论自然主义</title>
       <link>https://pedantries.com/posts/11402.html</link>
       <guid>https://pedantries.com/posts/11402.html</guid>
@@ -254,6 +321,40 @@
       
       
       <comments>https://pedantries.com/posts/11402.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>通信（九）：波西米亚的伊丽莎白公主与笛卡尔</title>
+      <link>https://pedantries.com/posts/36115.html</link>
+      <guid>https://pedantries.com/posts/36115.html</guid>
+      <pubDate>Mon, 19 Sep 2022 17:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;center&gt;波西米亚的伊丽莎白公主与笛卡尔通信集（九） &lt;/center&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;center&gt;笛卡尔&lt;/center&gt;
+&lt;center&gt;介君 译&lt;/center&gt;
+
+&lt;hr&gt;
+&lt;p&gt;授权信息：本文转载自「介君」，已获授权</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<hr><p><strong><center>波西米亚的伊丽莎白公主与笛卡尔通信集（九） </center></strong></p><center>笛卡尔</center><center>介君 译</center><hr><p>授权信息：本文转载自「介君」，已获授权，原文链接：<span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvbUU5TzV4anYxbnJzdG1hUlFEbHlLZw==">波西米亚的伊丽莎白公主与笛卡尔通信集（九）</span></p><hr><p><strong><center>笛卡尔致伊丽莎白</center></strong></p><p><strong><center>[巴黎]1644年7月8日[1]</center></strong></p><p><img data-src="https://i2.wp.com/telegra.ph/file/ef096160ad6e688c24fac.jpg"></p><p>女士，</p><p>我的旅程不可能遇上任何不幸，因为我很高兴有殿下您美好的祝愿作伴[2]。这封令人愉悦的信笺勾起了我一些回忆[3]，这是我在这个国家能够收到的最珍贵的东西。</p><p>我本该非常高兴，如果不是信中提到，在我离开海牙前，殿下您曾患病，而且至今_<strong>她</strong><em>的胃里还残留着些许不适。</em><strong>她</strong>_将调节饮食与运动作为治疗方法，在我看来是最重要的。</p><p>然而，<code>愤怒、恐惧和其他激情在体内激起的剧烈变化显示出，灵魂无疑较身体具有更大的力量。但灵魂并不直接按照其意志，将动物精气引向那些它们可能有用或有害的地方，它只是意愿或思维着其他事物[4]。</code></p><p>因为，我们的身体结构就是如此，<code>某些运动会自然跟随某种思维而来，就像一个人脸红是因为羞怯，泪水是出于怜悯，而笑声则是源自开心</code>[5]。</p><p>我知道，什么思想都比不上我们怀有如此强烈的信念：我们的身体构造(the architecture of our body)很好，只要人健康，就不会轻易得病，除非这个人做了一些显然过度的事情，或者空气和其他外部因素伤害了我们。</p><p><code>当一个人得病，他能够只凭自然之力恢复健康，尤其在他还年轻的时候。这个信念无疑比另一些更真实可信，另一些人在占星师(astrologer)或医生的影响下，使自己相信他们一定会在某段时间之后死去，而且只是因此他们就患病甚至死亡。</code></p><p>这太常见了，我看到这种情况发生在不同人身上。但如果我想到殿下您仍旧受到这种不适的困扰，我定会感到十分难过。我更希望她能够度过难关。同时，因为想要确认这一点，我极度渴望返回荷兰。</p><p>我打算在四五日内启程，途经普瓦图和布列塔尼，一些事务将我带往那里。但只要我将那些事情安排妥当，我就只想回到曾有幸与殿下您交谈过的地方。因为，尽管此地有许多我敬重的人，但没有谁能够使我留下来。我还有许多话想说，但就此搁笔。</p><hr><p>[1]一开始，亚当(Adam)和坦纳里(Tennery)认同科勒斯列，认为这封信是1647年7月所写。然而，反复考察笛卡尔与伊丽莎白公主的整个通信，他们将这封信重新定为1644年7月。参见AT 5:553。因此，我在此同意AT版对日期的重新确认，考廷汉姆(Cottingham)和贝萨德(Beyssade)也是如此。因为这封信与伊丽莎白1644年8月1日的回信对应，所以这种观点具有说服力。另外，伊丽莎白1644年身在荷兰，但她1647年却是在克劳森(Crossen)。我的一层考虑在于，笛卡尔在这封信里对激情的思考似乎相当成熟，不像是在1645年他们后来的通信中，才开始认真思考激情问题的。而且，笛卡尔早在1637年的《方法谈》中，就已经提到了动物精气中的激情表达（他在这封信里也关注于此），因此对日期的再次确认是可以接受的。</p><p>[2]笛卡尔当时正前往法国，去处理他在布列塔尼和普瓦图的家庭事务，包括其父的产业，但他也在巴黎稍作停留，加强了他在智识圈的联系。参见吉纳维芙·罗迪斯-露易丝的《笛卡尔：生平与思想》，简·玛丽·托德翻译。伊萨卡：康奈尔大学出版社，1988。152ff。</p><p>[3]据我所知，这封信没有完整的副本。</p><p>[4]笛卡尔在《论灵魂的激情》中坚持了这样的态度。参见a.41（AT 9:359-60）</p><p>[5]笛卡尔在《论灵魂的激情》中广泛地讨论了激情的表达。参见aa.112-135（AT 11:411-428）</p>]]></content:encoded>
+      
+      
+      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/">法国哲学</category>
+      
+      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%AC%9B%E5%8D%A1%E5%B0%94/">笛卡尔</category>
+      
+      
+      <category domain="https://pedantries.com/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94/">笛卡尔</category>
+      
+      
+      <comments>https://pedantries.com/posts/36115.html#disqus_thread</comments>
       
     </item>
     
@@ -428,84 +529,6 @@
       
       
       <comments>https://pedantries.com/posts/8889.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>德勒兹：感觉的逻辑</title>
-      <link>https://pedantries.com/posts/18658.html</link>
-      <guid>https://pedantries.com/posts/18658.html</guid>
-      <pubDate>Sat, 03 Sep 2022 02:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;这是一个操作的的场域。&lt;br&gt;&lt;br/&gt;&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p>这是一个操作的的场域。<br><br/></p><span id="more"></span><hr><p><strong><center>《圆，活动场地》</center></strong></p><center>德勒兹</center><center>王奕程 译</center><hr><p><strong><center>《感觉的逻辑》读书会</center></strong></p> <br>  <p>每周日晚20:30-22：00，我们会逐句翻译、阅读，并讲解德勒兹的《感觉的逻辑》。</p><p>报名方式：微信（<em><strong>Noli-foras-ire</strong></em>）</p><hr><p><strong><center>译者前言</center></strong></p><p>《感觉的逻辑》的重要性是不言而喻的，阿兰·巴迪欧和芭芭拉·卡桑曾经表示：吉尔·德勒兹有关弗兰西斯·培根的书远非一个哲学家对一位画家的研究。那么，这本书是否是“论”培根的？谁是哲学家，淮是画家？我们的意思是，谁在那里思考，谁又在看着思考者思考？一定可以对绘画进行思考，也一定可以将思想画出来，包括绘画这一激情、热烈的思想形式。事实上，这本书其实不需要任何哲学家来为其重要性背书。</p><p>关于这本书，目前有两个译本。</p><p>一个是由董强翻译，广西师范大学出版社在2017年出版的《感觉的逻辑》。这个译本基本上确实如译者所说：如果德勒兹的一句话，法语中一目了然便能懂的，就让中文读者也能一目了然；如果法语 本身是需要玩味再三才能读懂的，希望中文读者也能在细细 咀嚼之后，感到有所理解。因此，在翻译的时候，也基本上做到了贴近原文，甚至于按照原文的断句和停顿来安排译文的停顿和断句，这样一来，看似割裂的句子，实际上是较为贴近德勒兹本人的。</p><p>当然，这个译本也有一些问题。第一个问题是，译者可能对于哲学中的一些概念不是很了解，因此翻译的时候，用一些笼统的词来翻译，比如把原文的place翻译为“空间”。但是，在哲学中，place与space的区别还是很关键的。类似的问题也表现在对其他概念的翻译上。第二个问题是，由于译者或者编辑的疏漏，有些词语存在着错译，例如把verre翻译为“泥土”，不再赘述。对于基本概念的把握不准，会导致读者很难进入德勒兹的表达中，明白他到底在说什么。第三个问题是，译者考虑到中文读者的阅读习惯，把原文的一些从句拆成了几个短句，导致很多地方不够连贯。</p><p>总而言之，这个译本“缺”了一些东西。</p><p><img data-src="https://i2.wp.com/telegra.ph/file/24687aec2c4c1d5087717.png"></p><p>另一个是陈蕉翻译，国立编译馆在2002年出版的《感官感觉的逻辑》。这个译本的优点很明显，基本上维持了原文的从句，很多概念的翻译也符合哲学上的理解，问题是译者经常在翻译过程中自行增加一些内容，例如，原文第一句是：Un rond délimite souvent le lieu où est assis le personnage, c’est-à-dire la Figure；译者翻译为：一个圆经常划定出人物，也就是感觉形象，所坐的位置的边界。但是，原文其实是没有“……的边界”这层含义的，只是在讲划分&#x2F;限定出一个场所。</p><p>总而言之，这个译本“多”了一些东西。</p><p><img data-src="https://i0.wp.com/telegra.ph/file/488706459517d9e8fceb2.png"></p><p>除了翻译，阅读《感觉的逻辑》的最大困难在于德勒兹附在书边的图我们是看不到的。这本书引用了大量的绘画作品，但是新版的法文版和两个中译本都没有保留完整的图片，而是只保留了图片的名称。</p><p>在《感觉的逻辑》初版的时候，其实分为上下两册，上册是文本，下册是画册。可以一一对照着看，事半功倍。可惜，目前能看到的版本中都没有做到这一点。</p><p>因此，我们的读书会打算在综合考量两个译本的基础上，对照法文版重新翻译这本书，然后将高清的插图附在文字部分，以便图文对照。在翻译的基础上，我们会补充相关的概念背景和艺术史的背景，以便全面地把握这本书的思路和思想。</p><p>下面是我们重新翻译的第一章的节选，欢迎大家批评指正。</p><hr><p><strong><center>正文</center></strong></p><p>一个圆（rond）经常限定出（délimite）一个场所（lieu），在此之中，坐着一个人物（le personnage），也就是说，形象（Figure） 。</p><p><img data-src="https://i1.wp.com/telegra.ph/file/1f0cbcdb860ea00a10b8b.jpg"></p><p>坐着（Assis）、躺着（couché）、前倾着（penché）或是其他的姿势（autre chose）。这个圆，或这个椭圆（ovale），占据着或大或小的地方（place）：它能（peut）溢出（déborder）画的边界（les côtés du tableau），成为一幅三联画的中心（être au centre），等等 。</p><p><img data-src="https://i1.wp.com/telegra.ph/file/53994060a935f805b6b2b.jpg"></p><p><strong><center>说话的乔治·戴尔的肖像</center></strong></p><p>经常，它被一把坐着人物的椅子的圆，被一张躺着人物的床的椭圆所重复（redoublé）或所取代（remplacé）。</p><p>它散布（essaime）在围绕着人物身体某部分（cernent une partie du corps du personnage）的小圆片（les pastilles）之中，或者在那些环绕着身体（entourent les corps）的回旋形圆圈（les cercles）之内。</p><p>但是，即便是两个农人（paysans），他们也只有在与一块被装进盆中（une terre empotée），被密密地填挤在一个椭圆形盆子里的土地（étroitement contenue dans l’ovale d’un pot）产生关联时（rapport à），才有可能形成一个形象（forment une Figure）。</p><p>简而言之（Bref），画中包含着一个活动场所（le tableau comporte une piste），一种作为一个场所（lieu）的竞技场&#x2F;杂技场（une sorte de cirque）。</p><p>这是一种极为简单的手法（procédé），它在于隔离形象（isoler la Figur）。此外，还存在着其他的隔离的手法（procédés d’isolation）：把形象放在一个立方体（un cube）之中，或者更适切地来说，是将它放在一个玻璃的、或是镜面玻璃的多面体之中（parallélépipède de verre ou de glace）；</p><p><img data-src="https://i0.wp.com/telegra.ph/file/411aa7ac7b47d4d49796b.jpg"></p><p>把形象黏（coller）在一条轨道、一根被拉长了的杠杆（une barre étirée）上面，就像是黏在一个无尽的圆圈的磁性的弧线之上（l’arc magnétique d’un cercle infini）<br>将所有的这些方法（moyens），圆、立方体和杠杆，组合&#x2F;联合（combiner）起来，就像培根的那些奇怪的喇叭形和拱形的扶手椅那样。 </p><p>这就是诸场所（Ce sont des lieux）。总之，培根毫不掩饰地表明，这些手法几乎是简陋的（presque rudimentaires），尽管它们的组合非常巧妙&#x2F;精细&#x2F;精妙（les subtilités de leurs combinaisons）。</p><p><img data-src="https://i0.wp.com/telegra.ph/file/93ed992f2dec9c2e93f8a.jpg"></p><p>重要的是，这些方法并未迫使（contraignent）形象进入不能动弹的状态（l’immobilité）；相反地，它们必须&#x2F;应当（doivent）让某种行进（cheminement）成为可感的（sensible）（ils doivent rendre sensible une sorte de cheminement），形象在场所中的探索（exploration），或是对于其自身的探索。</p><p>这是一个操作的&#x2F;运作的场域（C’est un champ opératoire）。形象与其从中隔离出来的场所间的关系定义了一个事实（fait）：事实是……，已经发生了的是……以这样的方式被隔离出来（isolée）的形象因此变成一个影像（Image），一幅图像（Icône）。</p><p>画不仅仅是一个被隔离的实在（réalité）（一个事实[fait]），三联画（le triptyque）不仅仅是有着三面相互隔离的画板，我们尤其不应该将它们合并&#x2F;聚合&#x2F;汇集（réunir）在同一个画框（un même cadre）之内，而且，形象本身（la Figure elle-même）在画中也被圆形或多面体隔离起来。</p><p>为什么？</p><p>培根经常这么说：为了消除（conjurer）再现性的（figuratif）、说明性的（illustratif）和叙述性的（narratif）特征，如果形象不被隔离的话，那么它将必然会具备这样的特征。</p><p>绘画（La peinture）既没有一个要再现的范型&#x2F;原型（modèle à représenter），也没有一个要述说的故事（histoire à raconter）。此后，形象拥有两种逃离再现（échapper au figuratif）的可能途径：或透过抽象，朝向纯粹的形式（vers la forme pure，par abstraction）；或透过萃取或隔离，朝着纯粹的形象事物（vers le pur figurai，par extraction ou isolation）。</p><p>如果培根坚持画形象（peintre tient à la Figure），如果他选择了第二条路，这因而将是为了要让形象性的事物（le figural）和“再现性的事物”（le figuratif）对立（opposer）起来。 </p><p>隔离形象将是首要的条件。再现性的事物（表象）（le figuratif）（representation）事实上包含着某个影像（une image）和某个被认为是这个影像要表达的（qu’elle est censée illustrer）对象（un objet）之间的关系；但是，它也包含着某个影像与其他影像在一个恰恰给予影像各自的对象的复合的整体之中的关系。（le rapport d’une image avec d’autres images dans un ensemble composé qui donne précisément à chacune son objet）</p><p>描述（La narration）是与说明（illustration）相互关联的（陈：相互隔绝的）。在两个形象（figures）之间，总是存在着一个为了让整个说明性的事物变得活灵活现 （pour animer l’ensemble illustré），因而钻进来或是倾向于钻进来（se glisse ou tend à se glisser）的故事。</p><p>所以，为了要切断（rompre）这种形象与再现之间的关系、为了要粉碎描述（casser la narration）、阻止说明（empêcher l’illustration）、解放形象（libérer la Figure）——只停留在形象的事实中（s’en tenir au fait）——隔离是最简单的方法，尽管是不充分的，却是必要的。</p>]]></content:encoded>
-      
-      
-      <category domain="https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/">法国哲学</category>
-      
-      
-      <category domain="https://pedantries.com/tags/%E5%BE%B7%E5%8B%92%E5%85%B9/">德勒兹</category>
-      
-      <category domain="https://pedantries.com/tags/%E7%BB%98%E7%94%BB/">绘画</category>
-      
-      
-      <comments>https://pedantries.com/posts/18658.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>工具类：关联豆瓣与图书馆联盟（下载）</title>
-      <link>https://pedantries.com/posts/65108.html</link>
-      <guid>https://pedantries.com/posts/65108.html</guid>
-      <pubDate>Wed, 17 Aug 2022 03:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;&lt;strong&gt;如何把豆瓣变成资源网站？&lt;/strong&gt;&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p><strong>如何把豆瓣变成资源网站？</strong></p><span id="more"></span><p>在使用<strong>豆瓣</strong>的时候，大家可能有过类似的疑问：如何更快捷地确定我在豆瓣看到的这本书、这部电影、这首歌可以在哪里找到资源？下面就演示一下做法</p><ul><li><p>普通状态的豆瓣图书页面<br><img data-src="https://i0.wp.com/telegra.ph/file/65a86d32adc138e14b389.png"></p></li><li><p>增加了一点功能之后的页面</p></li></ul><p><img data-src="https://i0.wp.com/telegra.ph/file/56a06446e8503b9f60e71.png"></p><p>在后一张图中，多了一个<strong>参考联盟</strong>的超链接，只需要点击一下，就可以跳转到图书馆联盟中这本书的页面（下载办法看下面）。</p><ul><li>普通状态的豆瓣图书页面</li></ul><p><img data-src="https://i2.wp.com/telegra.ph/file/548b1cb7667c502c1d598.png"></p><ul><li>增加了一点功能之后的页面</li></ul><p><img data-src="https://i2.wp.com/telegra.ph/file/4bbc9d67dae7b6a8da177.png"></p><p>在后一张图的右侧栏，多六个功能：<strong>图书在线试读、图书精准匹配、图书免费网站、图书网盘搜索、有声在线试听和图书有声网站。</strong></p><p>这六个功能下面的选项中，分别有三种背景色：<strong>黄色（表示资源不存在）、绿色（表示资源存在）、白色（表示存在一些故障，例如需要登录后下载）。</strong></p><p>请阅读下方文本熟悉工具使用方法，本文可直接拷贝到微信中预览。</p><p>除了图书，电影和音乐也是类似的，如果大家希望增加一点功能，想要直接从豆瓣跳转到图书、电影和音乐的下载页面，就可以继续往下开始操作。</p><h2 id="1-安装油猴插件"><a href="#1-安装油猴插件" class="headerlink" title="1 安装油猴插件"></a>1 安装油猴插件</h2><p>1、<span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTg==">点击这里，打开网页</span></p><p>2、根据自己使用的浏览器，选择对应的软件</p><ul><li>Chrome：Tampermonkey</li><li>Firefox：Greasemonkey、Tampermonkey</li><li>Safari：Tampermonkey 或 Userscripts</li><li>Microsoft Edge：Tampermonkey</li><li>Opera：Tampermonkey</li><li>Maxthon：Violentmonkey</li></ul><h2 id="2-安装油猴脚本"><a href="#2-安装油猴脚本" class="headerlink" title="2  安装油猴脚本"></a>2  安装油猴脚本</h2><p>功能一：添加网页右侧的资源链接</p><p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzMyOTQ4NC0lRTglQjElODYlRTclOTMlQTMlRTglQjUlODQlRTYlQkElOTAlRTQlQjglOEIlRTglQkQlQkQlRTUlQTQlQTclRTUlQjglODgtMSVFNyVBNyU5MiVFNiU5MCU5RSVFNSVBRSU5QSVFOCVCMSU4NiVFNyU5MyVBMyVFNyU5NCVCNSVFNSVCRCVCMS0lRTklOUYlQjMlRTQlQjklOTAtJUU1JTlCJUJFJUU0JUI5JUE2JUU0JUI4JThCJUU4JUJEJUJE">点击这里，选择安装</span></p><p>功能二：图书互助，可以跳转到图书馆参考联盟</p><p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzQzNTU2OS0lRTYlOTYlODclRTclOEMlQUUlRTQlQkElOTIlRTUlOEElQTklRTUlQjAlOEYlRTUlQjglQUUlRTYlODklOEItJUU0JUJCJThFJUU1JTlCJUJFJUU0JUI5JUE2JUU5JUE2JTg2JUU1JThGJTgyJUU4JTgwJTgzJUU1JTkyJUE4JUU4JUFGJUEyJUU4JTgxJTk0JUU3JTlCJTlGLXVjZHJzLSVFNiU4OCU5NiVFOCVBRiVCQiVFNyVBNyU4MC1kdXhpdS0lRTglOEUlQjclRTUlOEYlOTZzc2lkLWR4aWQtJUU0JUJCJThFJUU0JUI4JUFEJUU3JUJFJThFJUU3JTk5JUJFJUU0JUI4JTg3LWNhZGFsLSVFOCU4RSVCNyVFNSU4RiU5NnNzbm8tJUU2JThGJTkwJUU0JUJFJTlCdWNkcnMtZHV4aXUtY2FkYWwlRTUlODglQjAlRTglQjElODYlRTclOTMlQTMlRTUlOUIlQkUlRTQlQjklQTYlRTclOUElODQlRTklOTMlQkUlRTYlOEUlQTU=">点击这里，选择安装</span></p><p>功能三：读书助手，关联豆瓣与Kindle、喜马拉雅等</p><p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzQxMjQ3OS1lYm9va3MtYXNzaXN0YW50">点击这里，选择安装</span></p><h2 id="3-下载图书馆联盟的电子书"><a href="#3-下载图书馆联盟的电子书" class="headerlink" title="3 下载图书馆联盟的电子书"></a>3 下载图书馆联盟的电子书</h2><p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzQzMjA3NS0lRTclQTclODAlRTglQUYlQkIlRTUlOUIlQkUlRTQlQjklQTYlRTQlQkElOTIlRTUlOEElQTk=">点击这里，选择安装</span></p><ul><li>提示1：使用之前的图书馆联盟插件，每本书价格3块（大家在淘宝找书一般就是用的这个办法）</li><li>提示2：使用目前这个插件每本书价格下降到1.3块（需要购买互助卡，其实就是团购）</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://pedantries.com/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/">技术类</category>
-      
-      
-      <category domain="https://pedantries.com/tags/%E6%96%87%E7%8C%AE%E5%B7%A5%E5%85%B7/">文献工具</category>
-      
-      
-      <comments>https://pedantries.com/posts/65108.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>电影评论：女人，祝你好运！</title>
-      <link>https://pedantries.com/posts/63057.html</link>
-      <guid>https://pedantries.com/posts/63057.html</guid>
-      <pubDate>Mon, 15 Aug 2022 03:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;center&gt;女人，祝你好运！&lt;/center&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;center&gt;葛婷婷&lt;/center&gt;&lt;/strong&gt;&lt;br&gt;&lt;br/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img dat</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><p><strong><center>女人，祝你好运！</center></strong></p><p><strong><center>葛婷婷</center></strong><br><br/></p><p><img data-src="https://i1.wp.com/telegra.ph/file/ed2d495cf8868b295edb9.jpg"></p><p>作为一部在豆瓣口碑电影榜上连续霸榜四周的电影，《祝你好运，里奥·格兰德》的故事简单到可以用三个词概括：一间房、两个人、四次约会。</p><p>如果再丰富一些，影片讲述的是艾玛·汤普森饰演的55岁寡妇Nancy Stokes一辈子没有过性高潮，在丈夫去世两年后，她迫切渴望体验一次完美性爱。于是，做了一辈子老师和贤妻良母的她雇用了一个20岁出头的性工作者里奥·格兰德，准备开始一次冒险。即便加上情欲的噱头，电影恐怕依旧会让那些被“大尺度”吸引，怀揣猎奇之心的人感到失望。</p><p>并非是老套的女性性解放主题电影，我觉得更像编剧使用了一个隐喻，影片展示了女性对身体、性、爱、欲望和存在的思考，而故事的结局，我更愿意理解为编剧、导演和演员共同编织的一幕女性幻想。</p><p><span class="exturl" data-url="aHR0cHM6Ly93d3cucGludGVyZXN0LmNvbS9waW4vNzM2MTk3ODcwMzQ5ODA3MDcx">https://www.pinterest.com/pin/736197870349807071</span></p><h2 id="Ⅰ-名字、缺在与幻想"><a href="#Ⅰ-名字、缺在与幻想" class="headerlink" title="Ⅰ. 名字、缺在与幻想"></a>Ⅰ. 名字、缺在与幻想</h2><p>这部某种程度上可以说只有两个人的电影，有着一个略显突兀的名字：《祝你好运，里奥·格兰德》，出现在片名中的里奥·格兰德很容易让人误解为影片的主人公，而事实上真正的主角是发出这句话语却并未出现在片名中的不在场的女主Nancy。导演此处的小心思在影片开场就赋予了女性一个缺在的位置。</p><p>Nancy Stokes是女主在购买性服务时使用的假名。有意思的是，在英语中nancy一词与nance同根近义，有假娘们儿、同性恋的含义；而Stoke在英语中有烧火、拨旺火堆的意思。也许女主在互联网上搜索讯息，最终决定购买性服务时，无意识中对自己女性身份认同与女性享乐理解的困惑，以及对自身欲望的疑问正呼之欲出。</p><p>同样，无论是作为片名中唯一出现的人物，还是Leo（意为狮子）、Grande（意为大的；显要的）字面意义上扑面而来的阳具意谓，归根到底这是男主工作时的假名，一个男性自以为是又希望女性认同的虚假的幻想。</p><p><img data-src="https://i0.wp.com/telegra.ph/file/5e392b33e42bc1e09acd6.jpg"></p><h2 id="Ⅱ-造就我者亦使我缺失"><a href="#Ⅱ-造就我者亦使我缺失" class="headerlink" title="Ⅱ. 造就我者亦使我缺失"></a>Ⅱ. 造就我者亦使我缺失</h2><p>故事发生在一间普普通通的酒店客房内，相比于那些性爱私密场所，它没有暧昧的灯光和陈设，更像一间心理咨询室。相应的，影片90%的内容并没有性爱场景，而是男女主角间如同心理咨询般的对话。得益于艾玛·汤普森精湛的演技，在缓缓展开的话语中，我们看到了一位被符号秩序异化并锚定的女性存在。</p><p>结婚几十年的丈夫丈夫给了Nancy房子、孩子以及看起来体面的生活，却在两性关系中始终将妻子视为满足自己性欲的客体，常年不变的性爱流程、姿势，任何新的尝试都会被其视为是对自己男性身份的羞辱。他从未发现妻子多年来一直在假装高潮，更可能并非没有觉察，而是无视。面对像丈夫一样boring的儿子和离经叛道的女儿，Nancy选择掩饰自己的失望，放弃自己的梦想，扮演一个“好母亲”，温柔体贴，有求必应。是什么造就了这样的Nancy？</p><p>第一次约会时，Leo问Nancy：“你的幻想是什么？”，“你的欲望是什么？” </p><p>尽管对性爱的渴望让Nancy购买了性服务，但她依然对自己的欲望难以启齿和羞愧，她哭泣着咒骂自己：“我就是个老色鬼！”这回荡在她脑海中的责骂声，如同她在Leo的引导下，在镜子前欣赏自己漂亮的小腿时，耳边响起的妈妈的话语：“亲爱的，虚荣心是弱点”。</p><p><img data-src="https://i0.wp.com/telegra.ph/file/e41240b580971bc1e73cc.jpg"></p><p>法国精神分析家拉康说，主体是言说的主体。在人成为人的过程中，主体必须经历两次异化：镜子阶段的异化和俄狄浦斯阶段的异化。在镜子阶段，它将一个镜像、一个他者认作自己；在俄狄浦斯阶段，他屈从于父亲的话语（律法），把自己让渡给大他者。从这个意义上说，主体的形成本质上就是一种异化的结果。在镜子阶段，异化伴随着大他者（母亲）的话语，“看，宝宝，这就是你。”在俄狄浦斯阶段，异化被父亲那句“不”所铭刻，以超我的形式扎根于主体无意识。于是，主体变成了一个提线木偶，一个分裂的缺失的主体，他的一举一动都受制于大他者，而他还以为一切都是自己的欲望。</p><p>当试图回答Leo关于幻想和欲望的问题时，Nancy制作了一份性爱任务清单，那是她在网络上查询到的 “标准答案”，她以为照着清单逐一完成任务，就能获得她渴望的完美性爱。此时的Nancy依然无法自己定义什么是快乐，什么是自己的欲望。她对Leo说的“如果我放下，我不知道会发生什么，那是唯一能让我活下去的东西。”</p><p>约会进行得磕磕绊绊，并在Nancy逐渐靠近Leo，试图打破两人之间的消费契约关系，和真实的Leo建立链接时险些破裂。在Nancy的幻想中，也许站在“好母亲”的位置上，弥补Leo和妈妈之间的裂痕，“救赎”Leo，无意识中是缓解自身行为的罪咎感。</p><p>主人话语或者说社会规则要求下的妻子、母亲、老师的角色，在不知不觉中成为Nancy赖以生存的最坚固的盔甲，以至于她几近丧失面对盔甲下的实在身体和真实的我的能力。</p><p><img data-src="https://i1.wp.com/telegra.ph/file/2e82bdbea58c89c058821.jpg"></p><h2 id="Ⅲ-镜子，他者的凝视"><a href="#Ⅲ-镜子，他者的凝视" class="headerlink" title="Ⅲ. 镜子，他者的凝视"></a>Ⅲ. 镜子，他者的凝视</h2><p>影片中，镜子元素多次出现，最为明显的是男女主角四次站在镜子前审视自己。</p><p>影片开头，Leo准备上门服务前，路过街边拐角商店，他停下脚步，透过商店的玻璃橱窗（镜子）打量自己。</p><p>影片中第一次约会，Nancy在等待Leo上门时，站在镜子前整理着装：丝绸衬衣、深色套装裙、低跟皮鞋，很职业，很得体。但她似乎对镜子中自己的形象并不满意。第二次约会，Nancy躲进厕所接女儿电话时，Leo站在镜子前端详自己。这是影片中少有的Leo独处的时刻。低沉的音乐和男主脸部的特写镜头，让我们瞥见了非服务情境中的Leo，目光闪烁中似有一丝挣扎与不甘。随后，Leo引导Nancy在镜子中欣赏自己的身体，谈论两人都有的对身体的羞耻感。</p><p>镜子不仅是镜子，更是来自他者的凝视。约会中，Nancy多次提到，担心自己衰老的身体会被Leo耻笑，还担心自己对Leo身体的注视会冒犯到他，尽管Leo说“被你看着的时候，我感觉很好”。</p><p><img data-src="https://i2.wp.com/telegra.ph/file/dce924134f6a9893fd538.jpg"></p><p>萨特将“他者”定义为“注视着我的人”，梅洛·庞蒂将主体定义为“被观看的存在者”，而拉康说“在我的生存中，我被全方位观看”。根据拉康理论，幼儿诞生之初，处在一种想象的母子二元融合关系中，主体被母亲大他者目光包裹，这是一种想象的完满状态。随着父亲的出场，带来了父亲的律法，它禁止幼儿把自己想象为母亲欠缺的阳具。于是父亲的律法将孩子带入了符号秩序，孩子获得了某种身份，成为了一个人。也就是说，成为人的代价是交出母子合一的原初享乐。作为拉康精神分析理论中的发明——对象a 之一，目光必须从主体身上掉落，分离出去。</p><p>影片结尾，Nancy独自站在镜子前，解开浴袍露出赤裸的身体，欣赏着自己松弛、下垂、赘肉的身体，此时她耳边不再响起母亲的斥责，他者的目光也在这一刻真正从她身上掉落，她重新认同了自己的身体形象，感受到了前所未有的轻松与自在。</p><h2 id="Ⅳ-穿越幻想，朝向欲望"><a href="#Ⅳ-穿越幻想，朝向欲望" class="headerlink" title="Ⅳ. 穿越幻想，朝向欲望"></a>Ⅳ. 穿越幻想，朝向欲望</h2><p>就像影片中Leo的自我职业介绍“性心理咨询师”，我们完全可以将这四次约会视作四节精神分析工作，不同的是精神分析工作唯一的工具是话语。</p><p>分析者Nancy带着对现实生活的不满意，带着一个要求——请给我性高潮——来到咨询室，分析家Leo出现在她面前。刚开始工作时，Nancy迟疑惶恐，无法言说自己的欲望，她试图通过把话题转移到Leo身上缓解自己的压力。而Leo表现得足够温柔耐心，他专注地倾听，客观中立，不加评判，甚至谨慎地略做一些自我暴露，慢慢引导Nancy建立信任，重新认同自己，勇敢地卸下禁锢自己却又赖以生存的盔甲。最重要的干预来自Leo的灵魂拷问：“你的欲望是什么？”这不正是精神分析中分析家向分析者的发问吗。正如拉康所说，精神分析伦理并非给予我们欲望的“善”，而是给予我们欲望本身。而欲望本质上是性的（力比多的）。</p><p>在Nancy对Leo建立了强烈的信任与认同后，希望进一步了解真正的Leo，她私下上网搜索Leo的信息，并得知了他的真名Connor（现实中有多少分析者都这么好奇分析家的），更进一步，她幻想着能帮Leo解决和家人关系的问题。这一刻Leo勃然大怒，他认为Nancy越界了，于是离开了房间。尽管影片最后，Leo似乎与原生家庭做了一部分和解，也似乎真正接纳了自己的职业，但他身上的故事究竟几分真假，我们并不知道，毕竟只有那个头戴小黄帽的他才是真正的Connor。</p><p><img data-src="https://i0.wp.com/telegra.ph/file/8309c224b953f3a9dd2fa.jpg"></p><p>从这个意义上，我们也许可以说，Leo自始至终都是Nancy的一个幻想，有着近乎完美的身体、近乎完美的话语，如同分析者眼中假设知道的分析家。</p><p>有意思的是，在接受了Leo的四次服务后，Nancy逐渐释放了内心，重新认识和接纳了自己实在的身体，但Leo始终没能给予她所要求的“善”，带给她一次性高潮。而此时，是Nancy自己放下了对性高潮的执念。也就在她放下后，或者说，在她穿越了对性高潮的幻想，穿越了对Leo的幻想后，最终她通过自我探索达到了的高潮。</p><p>或许，导演意在强调在女性追寻欲望的道路上，男性从来都不是必须的，自由和真理掌握在自己手中。但电影本身其实就是一个幻想，精神分析某种意义上亦是如此。在现实世界中，这依旧是一条并不轻松或许也未必能找到答案的道路。</p><p>拉康说，唯一能让一个人感到罪疚的事情就是让渡了你的欲望。送给所有女性：在追寻主体欲望的道路上，祝你好运！</p><p><img data-src="https://i0.wp.com/telegra.ph/file/1707cad3636dc93399ae3.jpg"></p><hr><p>作 者：葛婷婷，国家三级心理咨询师、社会工作师、少儿心理咨询师、婚姻家庭咨询师、杭州沐椿生命关爱中心发起人、杭州微光心理咨询工作室创始人、成都精神分析中心会员、浙江省心理健康促进会会员，接受个人分析5年（持续中），定期接受拉康派分析家个案督导；累计个案小时数1000+小时。</p><p>本文转载自: 微光心理咨询工作室，原文链接：<span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3Mvb2Q3Y0VlRUZYS0ROR1Z3dTRiTG95QQ==">女人，祝你好运！</span>，已获作者授权。</p>]]></content:encoded>
-      
-      
-      <category domain="https://pedantries.com/categories/%E7%94%B5%E5%BD%B1%E8%AF%84%E8%AE%BA/">电影评论</category>
-      
-      
-      <category domain="https://pedantries.com/tags/%E5%A5%B3%E6%80%A7%E4%B8%BB%E4%B9%89/">女性主义</category>
-      
-      
-      <comments>https://pedantries.com/posts/63057.html#disqus_thread</comments>
       
     </item>
     
