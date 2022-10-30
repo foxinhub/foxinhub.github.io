@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pedantries.com/posts/41160.html</loc>
+    <loc>https://pedantries.com/links/index.html</loc>
     
     <lastmod>2022-10-30</lastmod>
     
@@ -21,6 +21,15 @@
   
   <url>
     <loc>https://pedantries.com/posts/24666.html</loc>
+    
+    <lastmod>2022-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/posts/41160.html</loc>
     
     <lastmod>2022-10-30</lastmod>
     
@@ -86,15 +95,6 @@
     <loc>https://pedantries.com/posts/4083.html</loc>
     
     <lastmod>2022-10-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/links/index.html</loc>
-    
-    <lastmod>2022-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
