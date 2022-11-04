@@ -108,7 +108,7 @@
 }
 .v .form >.inner .preview-box {
   padding: 0.4375rem 1.25rem;
-  font-size: 0.8125em;
+  font-size: 0.825em;
   border-radius: 0.5rem;
   border: 0.0625rem solid var(--grey-2);
   box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
