@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pedantries.com/posts/4692.html</loc>
+    
+    <lastmod>2022-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/62128.html</loc>
     
     <lastmod>2022-11-06</lastmod>
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/posts/27239.html</loc>
+    <loc>https://pedantries.com/posts/40317.html</loc>
     
     <lastmod>2022-11-06</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/posts/40317.html</loc>
+    <loc>https://pedantries.com/posts/27239.html</loc>
     
     <lastmod>2022-11-06</lastmod>
     
@@ -1627,6 +1636,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/%E6%81%90%E6%80%96%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2022-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2233,6 +2249,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/%E9%BB%91%E6%A0%BC%E5%B0%94/%E9%98%BF%E5%A4%9A%E5%B0%94%E8%AF%BA/</loc>
+    <lastmod>2022-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E3%80%8A%E7%94%9F%E4%BA%A7%E3%80%8B%E8%AF%BB%E4%B9%A6%E4%BC%9A/</loc>
     <lastmod>2022-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
