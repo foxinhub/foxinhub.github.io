@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pedantries.com/posts/43400.html</loc>
+    
+    <lastmod>2022-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/39520.html</loc>
     
     <lastmod>2022-12-11</lastmod>
@@ -1836,6 +1845,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/%E4%BC%8A%E4%B8%87%C2%B7%E6%96%AF%E7%89%B9%E4%BC%A6%E6%96%AF%E5%9F%BA/</loc>
+    <lastmod>2022-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2512,6 +2528,20 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9A%E5%93%B2%E5%AD%A6/%E9%98%BF%E4%BC%A6%E5%8D%A1%C2%B7%E7%A5%96%E6%BD%98%E5%A5%91%E5%A5%87/</loc>
+    <lastmod>2022-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/Phenomenology/</loc>
+    <lastmod>2022-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/Phenomenology/%E4%BC%8A%E4%B8%87%C2%B7%E6%96%AF%E7%89%B9%E4%BC%A6%E6%96%AF%E5%9F%BA/</loc>
     <lastmod>2022-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
