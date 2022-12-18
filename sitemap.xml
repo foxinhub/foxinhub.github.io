@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pedantries.com/posts/33207.html</loc>
+    
+    <lastmod>2022-12-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/29760.html</loc>
     
     <lastmod>2022-12-18</lastmod>
@@ -2572,6 +2581,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E7%BF%BB%E8%AF%91%E5%B0%8F%E7%BB%84/Domonkos-Sik/</loc>
+    <lastmod>2022-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E7%BF%BB%E8%AF%91%E5%B0%8F%E7%BB%84/Stephen-D-Rosenberg/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
