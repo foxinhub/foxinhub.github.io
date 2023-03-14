@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pedantries.com/posts/54768.html</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/posts/18486.html</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/posts/13725.html</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/63866.html</loc>
     
     <lastmod>2023-03-14</lastmod>
@@ -1875,6 +1902,34 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/Pascal-Chabot/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E5%93%88%E7%89%B9%E7%A9%86%E7%89%B9%C2%B7%E7%BD%97%E8%90%A8/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/Hartmut-Rosa/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/Stephan-Lessenich/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2614,6 +2669,41 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/Thierry-Paquot/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%AF%94%E5%88%A9%E6%97%B6%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E5%93%88%E7%89%B9%E7%A9%86%E7%89%B9%C2%B7%E7%BD%97%E8%90%A8/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Hartmut-Rosa/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%AF%94%E5%88%A9%E6%97%B6%E5%93%B2%E5%AD%A6/Pascal-Chabot/</loc>
+    <lastmod>2023-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Hartmut-Rosa/Stephan-Lessenich/</loc>
     <lastmod>2023-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
