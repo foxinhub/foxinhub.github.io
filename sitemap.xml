@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pedantries.com/posts/55609.html</loc>
+    <loc>https://pedantries.com/posts/47293.html</loc>
     
-    <lastmod>2023-03-26</lastmod>
+    <lastmod>2023-03-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1964,6 +1964,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2023-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2745,6 +2752,20 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%A5%BF%E6%A2%85%E5%B0%94/</loc>
+    <lastmod>2023-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2023-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/Paul-Heintzman/</loc>
     <lastmod>2023-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
