@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pedantries.com/posts/41287.html</loc>
+    
+    <lastmod>2023-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/47293.html</loc>
     
     <lastmod>2023-03-27</lastmod>
@@ -1244,15 +1253,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/posts/36522.html</loc>
-    
-    <lastmod>2022-09-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/posts/7204.html</loc>
     
     <lastmod>2022-09-07</lastmod>
@@ -1392,20 +1392,6 @@
   
   <url>
     <loc>https://pedantries.com/tags/%E7%A6%8F%E6%9F%AF/</loc>
-    <lastmod>2023-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
-    <lastmod>2023-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2023-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1971,6 +1957,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/%E8%B4%9D%E5%B0%94%E7%BA%B3%C2%B7%E6%96%AF%E8%92%82%E6%A0%BC%E5%8B%92/</loc>
+    <lastmod>2023-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2059,13 +2052,6 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E8%8E%B1%E7%BB%B4%E7%BA%B3%E6%96%AF/</loc>
-    <lastmod>2023-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2023-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2213,13 +2199,6 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%93%A6%E7%99%BB%E8%B4%B9%E5%B0%94%E8%8C%A8/</loc>
-    <lastmod>2023-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E6%8A%80%E6%9C%AF/%E8%AE%A4%E7%9F%A5%E5%BC%80%E6%94%BE/</loc>
     <lastmod>2023-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2766,6 +2745,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/Paul-Heintzman/</loc>
+    <lastmod>2023-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%B4%9D%E5%B0%94%E7%BA%B3%C2%B7%E6%96%AF%E8%92%82%E6%A0%BC%E5%8B%92/</loc>
     <lastmod>2023-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
