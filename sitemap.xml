@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/posts/34217.html</loc>
+    
+    <lastmod>2023-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/posts/64684.html</loc>
     
     <lastmod>2023-08-18</lastmod>
@@ -2062,6 +2071,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pedantries.com/tags/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E5%B7%B4%E7%89%B9%E5%8B%92/</loc>
+    <lastmod>2023-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2885,6 +2901,20 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%B0%A2%E6%9E%97/</loc>
+    <lastmod>2023-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E7%BE%8E%E5%9B%BD%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2023-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E7%BE%8E%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E5%B7%B4%E7%89%B9%E5%8B%92/</loc>
     <lastmod>2023-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
