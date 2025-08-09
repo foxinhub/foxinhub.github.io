@@ -5,7 +5,20 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
+  <!-- 预加载关键字体 -->
+<link rel="preload" href="/path/to/font.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+<!-- font-display: swap -->
+<style>
+  @font-face {
+    font-family: 'Noto Serif SC';
+    src: url('/path/to/NotoSerifSC.woff2') format('woff2');
+    font-display: swap;
+  }
+</style>
+
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#FFF">
 <meta name="baidu-site-verification" content="code-dr5aRbPIDS" />
@@ -124,11 +137,11 @@ Les Choses et Les Événements = 物与事件 = 我描述的是即将到来的�
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://i3.mjj.rip/2024/06/29/9091e2283ee43f37ced275609b643f83.jpeg"></li>
+          <li class="item" data-background-image="https://pic.imgdb.cn/item/667fa238d9c307b7e9143591.jpg"></li>
+          <li class="item" data-background-image="https://i3.mjj.rip/2024/06/29/7800eb47b5277cf69e0bb8a94531cd36.jpeg"></li>
           <li class="item" data-background-image="https://i3.mjj.rip/2024/06/29/5ad1655c4b74878b9c131623437af6a3.jpeg"></li>
-          <li class="item" data-background-image="https://i3.mjj.rip/2024/06/29/273cf3c4c4c7a6e54252a5ab52609c1e.jpeg"></li>
-          <li class="item" data-background-image="https://pic.imgdb.cn/item/667f0198d9c307b7e96de7b1.jpg"></li>
-          <li class="item" data-background-image="https://i3.mjj.rip/2024/06/29/a4a0f030b312cdfa5a6dd63d14342c00.jpeg"></li>
+          <li class="item" data-background-image="https://pic.imgdb.cn/item/667fa19cd9c307b7e9137e67.jpg"></li>
+          <li class="item" data-background-image="https://i3.mjj.rip/2024/06/29/ad366e9d940ae6e57786a160f2da25ab.jpeg"></li>
           <li class="item" data-background-image="https://pic.imgdb.cn/item/667f0346d9c307b7e96f9be2.jpg"></li>
         </ul>
       </div>
@@ -273,7 +286,7 @@ Les Choses et Les Événements = 物与事件 = 我描述的是即将到来的�
     <div class="item left">
       
 
-  <a href="/year/03/15/%E5%93%88%E7%89%B9%E7%A9%86%E7%89%B9%C2%B7%E7%BD%97%E8%90%A8%EF%BC%9A%E6%97%B6%E9%97%B4%E4%B8%8E%E4%B8%8D%E5%AE%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;i3.mjj.rip&#x2F;2024&#x2F;06&#x2F;29&#x2F;24ea998802825dd02b856c6b470f86c9.jpeg" title="哈特穆特·罗萨：时间与不安">
+  <a href="/year/03/15/%E5%93%88%E7%89%B9%E7%A9%86%E7%89%B9%C2%B7%E7%BD%97%E8%90%A8%EF%BC%9A%E6%97%B6%E9%97%B4%E4%B8%8E%E4%B8%8D%E5%AE%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;pic.imgdb.cn&#x2F;item&#x2F;667fa19cd9c307b7e9137e81.jpg" title="哈特穆特·罗萨：时间与不安">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 哈特穆特·罗萨</span>
   <h3>哈特穆特·罗萨：时间与不安</h3>
@@ -283,7 +296,7 @@ Les Choses et Les Événements = 物与事件 = 我描述的是即将到来的�
     <div class="item right">
       
 
-  <a href="/year/03/20/Kevin%20Aho%EF%BC%9A%E5%8A%A0%E9%80%9F%E3%80%81%E6%97%A0%E8%81%8A%E5%92%8C%E6%9E%81%E7%AB%AF%E9%BA%BB%E6%9C%A8/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;i3.mjj.rip&#x2F;2024&#x2F;06&#x2F;29&#x2F;a1bc6f5ead175fcba9e1bb785a171a54.jpeg" title="Kevin Aho：加速、无聊和极端麻木">
+  <a href="/year/03/20/Kevin%20Aho%EF%BC%9A%E5%8A%A0%E9%80%9F%E3%80%81%E6%97%A0%E8%81%8A%E5%92%8C%E6%9E%81%E7%AB%AF%E9%BA%BB%E6%9C%A8/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;i3.mjj.rip&#x2F;2024&#x2F;06&#x2F;29&#x2F;c1042571079f22d1faf5992f00eb5560.jpeg" title="Kevin Aho：加速、无聊和极端麻木">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 西梅尔</span>
   <h3>Kevin Aho：加速、无聊和极端麻木</h3>
@@ -427,12 +440,58 @@ Les Choses et Les Événements = 物与事件 = 我描述的是即将到来的�
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/" title="分类于 德国哲学">德国哲学</a>
+<a href="/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/" title="分类于 法国哲学">法国哲学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E5%93%88%E7%89%B9%E7%A9%86%E7%89%B9%C2%B7%E7%BD%97%E8%90%A8/" title="分类于 哈特穆特·罗萨">哈特穆特·罗萨</a>
+<a href="/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/Phenomenology/" title="分类于 现象学">现象学</a>
 </div>
 
-    <span><a href="/year/03/15/%E5%93%88%E7%89%B9%E7%A9%86%E7%89%B9%C2%B7%E7%BD%97%E8%90%A8%EF%BC%9A%E6%97%B6%E9%97%B4%E4%B8%8E%E4%B8%8D%E5%AE%89/" title="哈特穆特·罗萨：时间与不安">哈特穆特·罗萨：时间与不安</a></span>
+    <span><a href="/year/09/19/%E5%84%BF%E7%AB%A5%E5%BF%83%E7%90%86%E5%AD%A6%EF%BC%88%E8%8B%B1%E8%AF%91%E8%80%85%E5%AF%BC%E8%A8%80%EF%BC%89/" title="梅洛-庞蒂：儿童心理学与教育学">梅洛-庞蒂：儿童心理学与教育学</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%94%B5%E5%BD%B1%E8%AF%84%E8%AE%BA/" title="分类于 电影评论">电影评论</a>
+</div>
+
+    <span><a href="/year/08/15/%E7%94%B5%E5%BD%B1%E8%AF%84%E8%AE%BA%EF%BC%9A%E5%A5%B3%E4%BA%BA%EF%BC%8C%E7%A5%9D%E4%BD%A0%E5%A5%BD%E8%BF%90/" title="电影评论：女人，祝你好运！">电影评论：女人，祝你好运！</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" title="分类于 读书笔记">读书笔记</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%A6%8F%E6%9F%AF/" title="分类于 福柯">福柯</a>
+</div>
+
+    <span><a href="/year/03/07/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E3%80%8A%E7%96%AF%E7%99%AB%E4%B8%8E%E6%96%87%E6%98%8E%E3%80%8B%EF%BC%88%E4%B8%80%EF%BC%89/" title="福柯：《疯癫与文明》读书笔记">福柯：《疯癫与文明》读书笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/" title="分类于 德国哲学">德国哲学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%A5%BF%E6%A2%85%E5%B0%94/" title="分类于 西梅尔">西梅尔</a>
+</div>
+
+    <span><a href="/year/03/20/Kevin%20Aho%EF%BC%9A%E5%8A%A0%E9%80%9F%E3%80%81%E6%97%A0%E8%81%8A%E5%92%8C%E6%9E%81%E7%AB%AF%E9%BA%BB%E6%9C%A8/" title="Kevin Aho：加速、无聊和极端麻木">Kevin Aho：加速、无聊和极端麻木</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/" title="分类于 德国哲学">德国哲学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%B5%B7%E5%BE%B7%E6%A0%BC%E5%B0%94/" title="分类于 海德格尔">海德格尔</a>
+</div>
+
+    <span><a href="/year/11/13/%E5%87%AF%E6%96%87-%E9%98%BF%E9%9C%8D%EF%BC%9A%E6%8A%80%E6%9C%AF%E3%80%81%E5%BF%99%E7%A2%8C%E5%92%8C%E7%9C%9F%E5%AE%9E%E7%9A%84%E5%8E%86%E5%8F%B2%E6%80%A7/" title="凯文-阿霍：技术、忙碌和真实的历史性">凯文-阿霍：技术、忙碌和真实的历史性</a></span>
   </li>
 
       
@@ -441,110 +500,56 @@ Les Choses et Les Événements = 物与事件 = 我描述的是即将到来的�
 <div class="breadcrumb">
 <a href="/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/" title="分类于 法国哲学">法国哲学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%AC%9B%E5%8D%A1%E5%B0%94/" title="分类于 笛卡尔">笛卡尔</a>
+<a href="/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%AE%A9-%E5%90%95%E5%85%8B%C2%B7%E5%8D%97%E5%B8%8C/" title="分类于 让-吕克·南希">让-吕克·南希</a>
 </div>
 
-    <span><a href="/year/09/20/%E6%B3%A2%E8%A5%BF%E7%B1%B3%E4%BA%9A%E7%9A%84%E4%BC%8A%E4%B8%BD%E8%8E%8E%E7%99%BD%E5%85%AC%E4%B8%BB%E4%B8%8E%E7%AC%9B%E5%8D%A1%E5%B0%94%E9%80%9A%E4%BF%A1%E9%9B%86%EF%BC%88%E4%B8%83%EF%BC%89/" title="通信（七）：波西米亚的伊丽莎白公主与笛卡尔">通信（七）：波西米亚的伊丽莎白公主与笛卡尔</a></span>
+    <span><a href="/year/10/19/Christopher%20Watkin%EF%BC%9A%E5%8D%97%E5%B8%8C%E7%9A%84%E6%94%BF%E6%B2%BB%E6%80%9D%E6%83%B3/" title="Christopher Watkin：南希的政治思想">Christopher Watkin：南希的政治思想</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/" title="分类于 意大利哲学">意大利哲学</a>
+<a href="/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/" title="分类于 女权主义">女权主义</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/%E9%98%BF%E7%94%98%E6%9C%AC/" title="分类于 阿甘本">阿甘本</a>
+<a href="/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/Firestone/" title="分类于 Firestone">Firestone</a>
 </div>
 
-    <span><a href="/year/10/16/Dimitris%20Vardoulakis%EF%BC%9A%E2%80%9CStasis%E2%80%9D%E4%B9%8B%E7%BB%88%E7%BB%93/" title="Dimitris Vardoulakis：“Stasis”之终结">Dimitris Vardoulakis：“Stasis”之终结</a></span>
+    <span><a href="/year/04/15/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89%EF%BC%9A%E6%80%A7%E7%9A%84%E8%BE%A9%E8%AF%81%E6%B3%95/" title="Firestone：性的辩证法">Firestone：性的辩证法</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/" title="分类于 意大利哲学">意大利哲学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/%E9%98%BF%E7%94%98%E6%9C%AC/" title="分类于 阿甘本">阿甘本</a>
+<a href="/categories/%E8%8E%B1%E7%BB%B4%E7%BA%B3%E6%96%AF/" title="分类于 莱维纳斯">莱维纳斯</a>
 </div>
 
-    <span><a href="/year/09/18/Carlo%20Salzani%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%97%A0%E4%BD%9C%EF%BC%9F/" title="Carlo Salzani：如何理解无作？">Carlo Salzani：如何理解无作？</a></span>
+    <span><a href="/year/02/08/%E3%80%8A%E6%80%BB%E4%BD%93%E4%B8%8E%E6%97%A0%E9%99%90%E3%80%8B%E4%B9%A6%E8%AF%84%EF%BC%9A%E6%92%9E%E5%87%BB%E3%80%81%E6%99%95%E5%85%89%E7%97%87%E4%B8%8E%E4%BB%96%E8%80%85/" title="书评：《总体与无限》">书评：《总体与无限》</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E8%B5%84%E8%AE%AF%E4%B8%8E%E6%8E%A8%E8%8D%90/" title="分类于 资讯与推荐">资讯与推荐</a>
+<a href="/categories/%E5%93%B2%E5%AD%A6%E6%A6%82%E5%BF%B5/" title="分类于 哲学概念">哲学概念</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/%E8%B5%84%E8%AE%AF%E4%B8%8E%E6%8E%A8%E8%8D%90/%E6%96%B0%E4%B9%A6/" title="分类于 新书">新书</a>
+<a href="/categories/%E5%93%B2%E5%AD%A6%E6%A6%82%E5%BF%B5/%E6%9C%AC%E8%B4%A8/" title="分类于 本质">本质</a>
 </div>
 
-    <span><a href="/year/10/17/%E8%B5%84%E8%AE%AF%E4%B8%8E%E6%8E%A8%E8%8D%90%EF%BC%9A%E6%96%B0%E4%B9%A6/" title="新书推荐">新书推荐</a></span>
+    <span><a href="/year/10/22/%E9%9D%9E%E6%9C%AC%E8%B4%A8%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8/" title="Bruce Baugh：非本质主义的本质">Bruce Baugh：非本质主义的本质</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E5%9C%B0%E7%90%86%E5%AD%A6/" title="分类于 地理学">地理学</a>
+<a href="/categories/%E9%98%BF%E6%8B%89%E4%BC%AF-%E4%BC%8A%E6%96%AF%E5%85%B0%E5%93%B2%E5%AD%A6/" title="分类于 阿拉伯-伊斯兰哲学">阿拉伯-伊斯兰哲学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/%E5%9C%B0%E7%90%86%E5%AD%A6/kenneth-white/" title="分类于 kenneth white">kenneth white</a>
+<a href="/categories/%E9%98%BF%E6%8B%89%E4%BC%AF-%E4%BC%8A%E6%96%AF%E5%85%B0%E5%93%B2%E5%AD%A6/%E4%BA%A8%E5%88%A9%C2%B7%E6%9F%AF%E5%AE%BE/" title="分类于 亨利·柯宾">亨利·柯宾</a>
 </div>
 
-    <span><a href="/year/12/09/kenneth%20white%EF%BC%9A%E5%9C%B0%E7%BC%98%E8%AF%97%E5%AD%A6%E7%9A%84%E8%A6%81%E7%B4%A0/" title="kenneth white：地缘诗学的要素">kenneth white：地缘诗学的要素</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/" title="分类于 意大利哲学">意大利哲学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/Franco-Bifo/" title="分类于 Franco Bifo">Franco Bifo</a>
-</div>
-
-    <span><a href="/year/07/31/Franco%20Bifo%EF%BC%9A%E5%85%B1%E4%BA%A7%E4%B8%BB%E4%B9%89%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5/" title="Franco Bifo：共产主义卷土重来">Franco Bifo：共产主义卷土重来</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E8%AF%BB%E4%B9%A6%E4%BC%9A/" title="分类于 读书会">读书会</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E8%AF%BB%E4%B9%A6%E4%BC%9A/%E5%AD%98%E5%9C%A8%E4%B8%8E%E6%97%B6%E9%97%B4/" title="分类于 存在与时间">存在与时间</a>
-</div>
-
-    <span><a href="/year/10/30/%E8%AF%BB%E4%B9%A6%E4%BC%9A%EF%BC%9A%E3%80%8A%E5%AD%98%E5%9C%A8%E4%B8%8E%E6%97%B6%E9%97%B4%E3%80%8B%EF%BC%88%E7%AC%AC%E5%8D%81%E4%B8%83%E8%8A%82%EF%BC%89/" title="读书会：《存在与时间》（第十七节）">读书会：《存在与时间》（第十七节）</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/" title="分类于 德国哲学">德国哲学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/" title="分类于 斯宾诺莎">斯宾诺莎</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/%E9%BB%91%E6%A0%BC%E5%B0%94/" title="分类于 黑格尔">黑格尔</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/%E9%BB%91%E6%A0%BC%E5%B0%94/%E9%98%BF%E5%A4%9A%E5%B0%94%E8%AF%BA/" title="分类于 阿多尔诺">阿多尔诺</a>
-</div>
-
-    <span><a href="/year/10/18/Jeffrey%20A.%20Bernstein%EF%BC%9A%E7%8A%B9%E5%A4%AA%E6%95%99%E4%B8%8E%E5%8E%86%E5%8F%B2/" title="Jeffrey A. Bernstein：犹太教与历史">Jeffrey A. Bernstein：犹太教与历史</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/" title="分类于 意大利哲学">意大利哲学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/Franco-Bifo/" title="分类于 Franco Bifo">Franco Bifo</a>
-</div>
-
-    <span><a href="/year/07/31/%E4%BF%9D%E7%BD%97%C2%B7%E5%BE%B7%E8%92%99%EF%BC%9A%E4%BB%8E%E7%83%AD%E5%86%85%E7%89%B9%E5%88%B0%E8%B4%B9%E8%88%8D%E5%B0%94%E7%9A%84%E8%82%86%E5%BF%83%E3%80%81%E2%80%9C%E6%84%A4%E6%80%92%E2%80%9D%E3%80%81%E2%80%9C%E5%A4%B1%E8%8C%83%E2%80%9D%E5%92%8C%E2%80%9C%E8%BF%87%E5%BA%A6%E2%80%9D/" title="Franco Bifo：共产主义卷土重来">Franco Bifo：共产主义卷土重来</a></span>
+    <span><a href="/year/10/21/%E4%BA%A8%E5%88%A9%C2%B7%E6%9F%AF%E5%AE%BE%EF%BC%9A%E4%BC%8A%E6%96%AF%E7%8E%9B%E4%BB%AA%E7%A0%94%E7%A9%B6%E6%89%80%EF%BC%88%E4%BC%A6%E6%95%A6%EF%BC%89/" title="亨利·柯宾：伊斯玛仪研究所（伦敦）">亨利·柯宾：伊斯玛仪研究所（伦敦）</a></span>
   </li>
 
   </ul>
