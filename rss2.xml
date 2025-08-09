@@ -3,12 +3,12 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>休闲哲学</title>
+    <title>物与事件</title>
     <link>https://pedantries.com/</link>
     
     <atom:link href="https://pedantries.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
-    <description></description>
+    <description>哲学，法国哲学</description>
     <pubDate>Sat, 09 Aug 2025 10:37:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     

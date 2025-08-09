@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>休闲哲学</title>
+  <title>物与事件</title>
   
   <subtitle>我描述的是即将到来的东西</subtitle>
   <link href="https://pedantries.com/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://pedantries.com/</id>
   
   <author>
-    <name>荔星</name>
+    <name>王蒙蒙</name>
     
   </author>
   
