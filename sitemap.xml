@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/year/12/09/kenneth%20white%EF%BC%9A%E5%9C%B0%E7%BC%98%E8%AF%97%E5%AD%A6%E7%9A%84%E5%B9%BF%E9%98%94%E9%A2%86%E5%9F%9F/</loc>
+    <loc>https://pedantries.com/year/12/09/kenneth%20white%EF%BC%9A%E5%9C%B0%E7%BC%98%E8%AF%97%E5%AD%A6%E5%B7%A5%E4%BD%9C%E5%AE%A4/</loc>
     
     <lastmod>2022-12-08</lastmod>
     
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/year/12/09/kenneth%20white%EF%BC%9A%E5%9C%B0%E7%BC%98%E8%AF%97%E5%AD%A6%E5%B7%A5%E4%BD%9C%E5%AE%A4/</loc>
+    <loc>https://pedantries.com/year/12/09/kenneth%20white%EF%BC%9A%E5%9C%B0%E7%BC%98%E8%AF%97%E5%AD%A6%E7%9A%84%E5%B9%BF%E9%98%94%E9%A2%86%E5%9F%9F/</loc>
     
     <lastmod>2022-12-08</lastmod>
     
@@ -902,15 +902,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/year/05/04/%E6%B3%A2%E8%A5%BF%E7%B1%B3%E4%BA%9A%E7%9A%84%E4%BC%8A%E4%B8%BD%E8%8E%8E%E7%99%BD%E5%85%AC%E4%B8%BB%E4%B8%8E%E7%AC%9B%E5%8D%A1%E5%B0%94%E9%80%9A%E4%BF%A1%E9%9B%86%EF%BC%88%E4%B8%89%EF%BC%89/</loc>
-    
-    <lastmod>2022-09-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/year/09/20/%E6%B3%A2%E8%A5%BF%E7%B1%B3%E4%BA%9A%E7%9A%84%E4%BC%8A%E4%B8%BD%E8%8E%8E%E7%99%BD%E5%85%AC%E4%B8%BB%E4%B8%8E%E7%AC%9B%E5%8D%A1%E5%B0%94%E9%80%9A%E4%BF%A1%E9%9B%86%EF%BC%88%E4%B9%9D%EF%BC%89/</loc>
     
     <lastmod>2022-09-30</lastmod>
@@ -921,6 +912,15 @@
   
   <url>
     <loc>https://pedantries.com/year/05/03/%E6%B3%A2%E8%A5%BF%E7%B1%B3%E4%BA%9A%E7%9A%84%E4%BC%8A%E4%B8%BD%E8%8E%8E%E7%99%BD%E5%85%AC%E4%B8%BB%E4%B8%8E%E7%AC%9B%E5%8D%A1%E5%B0%94%E9%80%9A%E4%BF%A1%E9%9B%86%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    
+    <lastmod>2022-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/year/05/04/%E6%B3%A2%E8%A5%BF%E7%B1%B3%E4%BA%9A%E7%9A%84%E4%BC%8A%E4%B8%BD%E8%8E%8E%E7%99%BD%E5%85%AC%E4%B8%BB%E4%B8%8E%E7%AC%9B%E5%8D%A1%E5%B0%94%E9%80%9A%E4%BF%A1%E9%9B%86%EF%BC%88%E4%B8%89%EF%BC%89/</loc>
     
     <lastmod>2022-09-30</lastmod>
     
@@ -1429,13 +1429,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/Ben-Ware/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/tags/Anne-Norton/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1450,7 +1443,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E9%98%BF%E7%94%98%E6%9C%AC/</loc>
+    <loc>https://pedantries.com/tags/Ben-Ware/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1458,6 +1451,13 @@
   
   <url>
     <loc>https://pedantries.com/tags/%E5%BE%B7%E9%87%8C%E8%BE%BE/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E9%98%BF%E7%94%98%E6%9C%AC/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1506,20 +1506,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E6%97%B6%E9%97%B4/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/Judith-Butler/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/tags/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1535,6 +1521,20 @@
   
   <url>
     <loc>https://pedantries.com/tags/%E9%98%BF%E5%A4%9A%E5%B0%94%E8%AF%BA/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E6%97%B6%E9%97%B4/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/Judith-Butler/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1569,13 +1569,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E8%AE%A9-%E5%90%95%E5%85%8B%C2%B7%E9%A9%AC%E9%87%8C%E7%BF%81/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/tags/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1583,7 +1576,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E5%8A%A8%E7%89%A9/</loc>
+    <loc>https://pedantries.com/tags/%E8%AE%A9-%E5%90%95%E5%85%8B%C2%B7%E9%A9%AC%E9%87%8C%E7%BF%81/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1598,6 +1591,13 @@
   
   <url>
     <loc>https://pedantries.com/tags/Slavoj-Zizek/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E5%8A%A8%E7%89%A9/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1653,6 +1653,13 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/tags/%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/tags/%E6%97%A5%E5%B8%B8%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1661,13 +1668,6 @@
   
   <url>
     <loc>https://pedantries.com/tags/%E4%BC%91%E9%97%B2%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1723,14 +1723,21 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E5%94%90%E5%A8%9C%C2%B7%E5%93%88%E6%8B%89%E7%BB%B4/</loc>
+    <loc>https://pedantries.com/tags/%E5%9C%8B%E5%88%86%E5%8A%9F%E4%B8%80%E9%83%8E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E5%9C%8B%E5%88%86%E5%8A%9F%E4%B8%80%E9%83%8E/</loc>
+    <loc>https://pedantries.com/tags/Slavoj-Zizek/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E4%BC%8A%E8%8E%89%E6%A0%BC%E7%91%9E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1745,6 +1752,13 @@
   
   <url>
     <loc>https://pedantries.com/tags/%E5%A5%B3%E6%80%A7%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E5%94%90%E5%A8%9C%C2%B7%E5%93%88%E6%8B%89%E7%BB%B4/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1793,7 +1807,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/Slavoj-Zizek/</loc>
+    <loc>https://pedantries.com/tags/%E6%99%AE%E9%B2%81%E5%A1%94%E5%85%8B/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1801,13 +1815,6 @@
   
   <url>
     <loc>https://pedantries.com/tags/Chirat/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E4%BC%8A%E8%8E%89%E6%A0%BC%E7%91%9E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1829,13 +1836,6 @@
   
   <url>
     <loc>https://pedantries.com/tags/%E7%94%9F%E5%91%BD%E6%94%BF%E6%B2%BB/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E6%99%AE%E9%B2%81%E5%A1%94%E5%85%8B/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1884,6 +1884,20 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/tags/%E8%83%A1%E5%A1%9E%E5%B0%94/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/tags/%E7%94%9F%E5%91%BD%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/tags/%E6%9F%8F%E6%A0%BC%E6%A3%AE/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1898,21 +1912,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E7%94%9F%E5%91%BD%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/tags/%E5%89%A7%E5%9C%BA/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E8%83%A1%E5%A1%9E%E5%B0%94/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1926,14 +1926,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E9%B2%8D%E5%BE%B7%E9%87%8C%E4%BA%9A/</loc>
+    <loc>https://pedantries.com/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94/</loc>
+    <loc>https://pedantries.com/tags/%E9%B2%8D%E5%BE%B7%E9%87%8C%E4%BA%9A/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1968,6 +1968,13 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/tags/%E6%81%90%E6%80%96%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/tags/%E7%93%A6%E7%99%BB%E8%B4%B9%E5%B0%94%E8%8C%A8/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -1975,7 +1982,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/tags/%E6%81%90%E6%80%96%E4%B8%BB%E4%B9%89/</loc>
+    <loc>https://pedantries.com/tags/%E7%BF%BB%E8%AF%91%E5%B0%8F%E7%BB%84/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1990,13 +1997,6 @@
   
   <url>
     <loc>https://pedantries.com/tags/Stephan-Lessenich/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/tags/%E7%BF%BB%E8%AF%91%E5%B0%8F%E7%BB%84/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2138,6 +2138,20 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/categories/%E5%BD%A2%E8%80%8C%E4%B8%8A%E5%AD%A6/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%9C%97%E8%A5%BF%E5%9F%83/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E4%B8%8E%E6%96%87%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2152,14 +2166,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%9C%97%E8%A5%BF%E5%9F%83/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%BD%A2%E8%80%8C%E4%B8%8A%E5%AD%A6/</loc>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E5%BE%B7%E5%8B%92%E5%85%B9/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2167,13 +2174,6 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E5%BE%B7%E5%8B%92%E5%85%B9/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2215,6 +2215,13 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/categories/%E9%9D%9E%E6%B4%B2%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2229,21 +2236,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/%E9%98%BF%E7%94%98%E6%9C%AC/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%B4%9D%E5%B0%94%E7%BA%B3%C2%B7%E6%96%AF%E8%92%82%E6%A0%BC%E5%8B%92/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/%E9%98%BF%E7%94%98%E6%9C%AC/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2264,13 +2264,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%AE%A9-%E5%90%95%E5%85%8B%C2%B7%E9%A9%AC%E9%87%8C%E7%BF%81/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2278,7 +2271,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E7%BF%BB%E8%AF%91/</loc>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E8%AE%A9-%E5%90%95%E5%85%8B%C2%B7%E9%A9%AC%E9%87%8C%E7%BF%81/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2299,6 +2292,13 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/categories/%E7%BF%BB%E8%AF%91/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/categories/%E5%9C%B0%E7%90%86%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2313,14 +2313,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/Franco-Bifo/</loc>
+    <loc>https://pedantries.com/categories/%E8%8E%B1%E7%BB%B4%E7%BA%B3%E6%96%AF/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E8%8E%B1%E7%BB%B4%E7%BA%B3%E6%96%AF/</loc>
+    <loc>https://pedantries.com/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/Franco-Bifo/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2348,7 +2348,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E9%9D%9E%E6%B4%B2%E5%93%B2%E5%AD%A6/Johan-Cilliers/</loc>
+    <loc>https://pedantries.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2362,14 +2369,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E8%8B%B1%E7%BE%8E%E5%93%B2%E5%AD%A6/Judith-Butler/</loc>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/Phenomenology/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/Phenomenology/</loc>
+    <loc>https://pedantries.com/categories/%E9%9D%9E%E6%B4%B2%E5%93%B2%E5%AD%A6/Johan-Cilliers/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2383,7 +2390,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://pedantries.com/categories/%E8%8B%B1%E7%BE%8E%E5%93%B2%E5%AD%A6/Judith-Butler/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2391,13 +2398,6 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E5%85%AC%E5%85%B1%E8%AF%9D%E9%A2%98/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2453,6 +2453,20 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E8%AF%9D%E9%A2%98/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/Slavoj-Zizek/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2467,14 +2481,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E8%AF%9D%E9%A2%98/</loc>
+    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://pedantries.com/categories/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/Paul-Heintzman/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2489,13 +2503,6 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E5%AF%BC%E8%AF%BB/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%93%B2%E5%AD%A6/Paul-Heintzman/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2523,7 +2530,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/Slavoj-Zizek/</loc>
+    <loc>https://pedantries.com/categories/%E5%B8%8C%E8%85%8A%E5%8C%96%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E9%A9%AC%E5%B0%94%E5%BA%93%E5%A1%9E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2544,20 +2558,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%B8%8C%E8%85%8A%E5%8C%96%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E9%A9%AC%E5%B0%94%E5%BA%93%E5%A1%9E/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E4%BF%84%E7%BD%97%E6%96%AF%E5%93%B2%E5%AD%A6/%D0%90-%D0%A1-%D0%92%D0%B5%D1%82%D1%83%D1%88%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2572,13 +2572,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E4%BF%84%E7%BD%97%E6%96%AF%E5%93%B2%E5%AD%A6/%E9%B2%8D%E5%8B%92%E8%AF%BA%E5%A4%AB/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E6%84%8F%E5%A4%A7%E5%88%A9%E5%93%B2%E5%AD%A6/%E6%AF%94%E5%BC%97-%E8%B4%9D%E6%8B%89%E5%B0%94%E8%BF%AA/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2586,7 +2579,21 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/categories/%E4%BF%84%E7%BD%97%E6%96%AF%E5%93%B2%E5%AD%A6/%E9%B2%8D%E5%8B%92%E8%AF%BA%E5%A4%AB/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%8B%89%E5%BA%B7/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Phenomenology/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2621,28 +2628,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Phenomenology/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%BA%A6%E7%BF%B0%C2%B7%E8%90%A8%E5%88%A9%E6%96%AF/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E9%B2%8D%E5%BE%B7%E9%87%8C%E4%BA%9A/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E6%99%AE%E5%8F%8A/%E5%93%B2%E5%AD%A6%E5%AE%B6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2656,7 +2642,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E7%AC%9B%E5%8D%A1%E5%B0%94/</loc>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E9%B2%8D%E5%BE%B7%E9%87%8C%E4%BA%9A/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2670,14 +2656,28 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E4%BF%84%E7%BD%97%E6%96%AF%E5%93%B2%E5%AD%A6/%E7%8B%AC%E5%BC%82%E6%80%A7%E5%93%B2%E5%AD%A6/</loc>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/%E9%BB%91%E6%A0%BC%E5%B0%94/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%85%AC%E5%85%B1%E8%AF%9D%E9%A2%98/%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2%E8%AE%A4%E7%9F%A5%E6%B1%A1%E6%9F%93/</loc>
+    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E6%99%AE%E5%8F%8A/%E5%93%B2%E5%AD%A6%E5%AE%B6/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E7%AC%9B%E5%8D%A1%E5%B0%94/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E4%BF%84%E7%BD%97%E6%96%AF%E5%93%B2%E5%AD%A6/%E7%8B%AC%E5%BC%82%E6%80%A7%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2691,21 +2691,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%93%A6%E7%99%BB%E8%B4%B9%E5%B0%94%E8%8C%A8/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/%E9%BB%91%E6%A0%BC%E5%B0%94/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E3%80%8A%E7%94%9F%E4%BA%A7%E3%80%8B%E8%AF%BB%E4%B9%A6%E4%BC%9A/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E6%B3%95%E5%9B%BD%E5%93%B2%E5%AD%A6/%E7%93%A6%E7%99%BB%E8%B4%B9%E5%B0%94%E8%8C%A8/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2719,7 +2712,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Hartmut-Rosa/</loc>
+    <loc>https://pedantries.com/categories/%E5%85%AC%E5%85%B1%E8%AF%9D%E9%A2%98/%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2%E8%AE%A4%E7%9F%A5%E6%B1%A1%E6%9F%93/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2727,6 +2720,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E7%BF%BB%E8%AF%91%E5%B0%8F%E7%BB%84/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Hartmut-Rosa/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2768,14 +2768,14 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/%E5%94%90%E5%A8%9C%C2%B7%E5%93%88%E6%8B%89%E7%BB%B4/</loc>
+    <loc>https://pedantries.com/categories/%E8%AF%BB%E4%B9%A6%E4%BC%9A/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E8%AF%BB%E4%B9%A6%E4%BC%9A/</loc>
+    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E8%AF%9D%E9%A2%98/%E5%9C%8B%E5%88%86%E5%8A%9F%E4%B8%80%E9%83%8E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2796,13 +2796,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E8%AF%9D%E9%A2%98/%E5%9C%8B%E5%88%86%E5%8A%9F%E4%B8%80%E9%83%8E/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E7%A6%8F%E6%9F%AF/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2817,14 +2810,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/Firestone/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E5%85%A5%E9%97%A8/%E5%93%B2%E5%AD%A6%E9%98%85%E8%AF%BB/</loc>
+    <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/%E4%BC%8A%E8%8E%89%E6%A0%BC%E7%91%9E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2832,6 +2818,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E8%B5%84%E8%AE%AF%E4%B8%8E%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/Firestone/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2852,6 +2845,13 @@
   </url>
   
   <url>
+    <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/%E5%94%90%E5%A8%9C%C2%B7%E5%93%88%E6%8B%89%E7%BB%B4/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2859,14 +2859,21 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%AF%BC%E8%AF%BB/Phenomenology/</loc>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E9%9F%A9%E7%82%B3%E5%93%B2/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E9%9F%A9%E7%82%B3%E5%93%B2/</loc>
+    <loc>https://pedantries.com/categories/%E5%93%B2%E5%AD%A6%E5%85%A5%E9%97%A8/%E5%93%B2%E5%AD%A6%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%AF%BC%E8%AF%BB/Phenomenology/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2881,13 +2888,6 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/categories/%E5%A5%B3%E6%9D%83%E4%B8%BB%E4%B9%89/%E4%BC%8A%E8%8E%89%E6%A0%BC%E7%91%9E/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2915,13 +2915,6 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81/%E6%B7%B1%E6%BF%91%E6%98%8C%E4%B9%85/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/%E6%96%AF%E5%AE%BE%E8%AF%BA%E8%8E%8E/%E9%BB%91%E6%A0%BC%E5%B0%94/%E9%98%BF%E5%A4%9A%E5%B0%94%E8%AF%BA/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2929,7 +2922,7 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Hartmut-Rosa/Stephan-Lessenich/</loc>
+    <loc>https://pedantries.com/categories/%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81/%E6%B7%B1%E6%BF%91%E6%98%8C%E4%B9%85/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2937,6 +2930,13 @@
   
   <url>
     <loc>https://pedantries.com/categories/%E7%BF%BB%E8%AF%91%E5%B0%8F%E7%BB%84/Domonkos-Sik/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/categories/%E5%BE%B7%E5%9B%BD%E5%93%B2%E5%AD%A6/Hartmut-Rosa/Stephan-Lessenich/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
