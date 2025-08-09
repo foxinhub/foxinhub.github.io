@@ -1,3 +1,25 @@
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+    line-height: 2;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px; /* 适当减少边距 */
+  }
+  .post-content {
+    padding: 0 10px;
+  }
+}
 .v.wrap {
   animation: none;
   opacity: 0;
