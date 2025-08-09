@@ -2436,11 +2436,11 @@ main >.inner {
 }
 #brand .artboard {
   font-family: 'Fredericka the Great', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 3.5em;
+  font-size: 4em;
   line-height: 1.2;
 }
 #brand h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   letter-spacing: 0.125rem;
 }
 #brand .artboard + h1 {
@@ -2481,7 +2481,7 @@ main >.inner {
 }
 @media (max-width: 413px) {
   #brand .artboard {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 }
 #tool {
@@ -3446,22 +3446,22 @@ main >.inner {
   color: var(--color-blue);
 }
 .md h1 {
-  font-size: 1.5em;
+  font-size: 2.875em;
 }
 .md h2 {
-  font-size: 1.375em;
+  font-size: 2.75em;
 }
 .md h3 {
-  font-size: 1.25em;
+  font-size: 2.625em;
 }
 .md h4 {
-  font-size: 1.125em;
+  font-size: 2.5em;
 }
 .md h5 {
-  font-size: 1em;
+  font-size: 2.375em;
 }
 .md h6 {
-  font-size: 0.875em;
+  font-size: 2.25em;
 }
 .md h1,
 .md h2,
