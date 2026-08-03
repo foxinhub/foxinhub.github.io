@@ -3,13 +3,13 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>物与事件</title>
+    <title>休闲哲学</title>
     <link>https://pedantries.com/</link>
     
     <atom:link href="https://pedantries.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>关心你自己</description>
-    <pubDate>Tue, 13 Jan 2026 05:39:09 GMT</pubDate>
+    <pubDate>Tue, 13 Jan 2026 05:39:30 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
