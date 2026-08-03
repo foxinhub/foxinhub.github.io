@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pedantries.com/year/08/03/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%90%8D%EF%BD%9C%E3%80%8A%E4%BC%91%E9%97%B2%E5%93%B2%E5%AD%A6%C2%B7%E5%85%B3%E5%BF%83%E4%BD%A0%E8%87%AA%E5%B7%B1%E3%80%8B%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2/</loc>
+    <loc>https://pedantries.com/year/05/15/%E5%A6%82%E4%BD%95%E3%80%8C%E6%B7%B1%E3%80%8D%E8%80%8C%E3%80%8C%E5%B9%BF%E3%80%8D%E5%9C%B0%E9%98%85%E8%AF%BB%EF%BC%9F/</loc>
     
     <lastmod>2026-08-03</lastmod>
     
@@ -11,9 +11,18 @@
   </url>
   
   <url>
-    <loc>https://pedantries.com/year/01/10/%E4%BB%8E%E4%BC%91%E9%97%B2%E5%88%B0%E8%87%AA%E7%94%B1/</loc>
+    <loc>https://pedantries.com/year/09/23/%E3%80%90%E5%B7%A5%E4%BD%9C%E3%80%91%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
     
-    <lastmod>2026-01-13</lastmod>
+    <lastmod>2026-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pedantries.com/year/08/03/%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%90%8D%EF%BD%9C%E3%80%8A%E4%BC%91%E9%97%B2%E5%93%B2%E5%AD%A6%C2%B7%E5%85%B3%E5%BF%83%E4%BD%A0%E8%87%AA%E5%B7%B1%E3%80%8B%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2/</loc>
+    
+    <lastmod>2026-08-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -32,24 +41,6 @@
     <loc>https://pedantries.com/about/index.html</loc>
     
     <lastmod>2024-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/year/09/23/%E3%80%90%E5%B7%A5%E4%BD%9C%E3%80%91%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
-    
-    <lastmod>2024-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pedantries.com/year/05/15/%E5%A6%82%E4%BD%95%E3%80%8C%E6%B7%B1%E3%80%8D%E8%80%8C%E3%80%8C%E5%B9%BF%E3%80%8D%E5%9C%B0%E9%98%85%E8%AF%BB%EF%BC%9F/</loc>
-    
-    <lastmod>2024-06-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
