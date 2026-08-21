@@ -3,7 +3,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>休闲哲学</title>
+    <title>休閒哲學與自我關懷研究</title>
     <link>https://pedantries.com/</link>
     
     <atom:link href="https://pedantries.com/rss2.xml" rel="self" type="application/rss+xml"/>
